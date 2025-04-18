@@ -1,0 +1,74 @@
+Performance
+- ImmediatelyFast - Speed up immediate mode rendering
+- AI Improvements - disable look at goal (player or attack target) AI task - cause AIs to not face targets or walking directions - replaces default look controller with a more efficient version
+- Alternate Current - efficient & non-locational redstone dust fix
+- FerriteCore - RAM optimisations
+- Let Me Despawn - despawns unintentional persistent mobs - drops their picked up or equipped items - configurable whitelist
+- Get It Together, Drops! - dropped item stacks combine - do_not_combine specific items whitelist option - 2 radius including vertical (configurable)
+- Entity Culling - hide Block-/Entities that aren't visible
+- More Culling - hide Block-/Entities that aren't visible
+- C2ME - chunk loading - vanilla parity
+- https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
+- https://modrinth.com/mod/fast-ip-ping
+- Sodium - optimised terrain, entities, GUIs, block entities, etc. renderer
+- Lithium - optimised game physics, mob AI, block ticking, etc.
+
+Management
+- Better Modlist - synitra connector fabric mod support
+- Controlling - search keybinds - WARNING assign keybind crash
+- Configured - GUI mod config settings
+
+Zoom
+- Spyglass Improvements - spyglass zoom scroll - zoom keybind - accessories support - WARNING Tobi fork to fix mods.toml - WARNING no model support multiplayer? (https://github.com/juancarloscp52/spyglass-improvements/issues/43)
+- Camerapture - take/upload pictures - frame/album - SHIFT + RMB GUI
+- version missing - Useful Spyglass - Hwyla like entity health & armour info - marking enchant glowing effect when attacking - precision enchant perfect accuracy & no gravity CROUCH + RANGE WEAPON
+- version missing - Camera Overhaul - player movement visual feedback - camera rotations/shake
+- version missing - Camera Utils - tripod detatch camera - extra/custom 3rd person - WARNING little clashing with Better Third Person
+- version missing - Better Third Person - 360 freecam while moving
+- version missing - Accessories - extra wearable inventories for accessories
+- version missing - Curios Compat Layer for Accessories
+    > Spyglass Improvements - hat spyglass
+    > Horse Expert - belt monocle
+
+HUD
+- AppleSkin - Food/hunger values - inventory tooltips & HUD
+- Durability Tooltip
+- GUI Clock - must be in inventory - F3 nerf - day counter
+- GUI Compass - must be in inventory - F3 nerf
+- bad packets - packet messaging between different mod loaders for servers
+- BetterF3 - custom debug HUD - more legible - F3 nerf - F3 + M
+- Held Item Tooltips - item durability, enchants, shulker box contents, potion effects, rocket durations, etc. - WARNING bad Durability Tooltip support
+- What's That Slot? - query item options for slots - LEFT ALT + HOVER
+- 1.21.4 - Food Effect Tooltips - status effect tooltips for food - supports % chance like rotten flesh
+- 1.21.4 - BoccHUD - custom permanent debug HUD - axolotol variant name - hive/nest bee/honey count - structure bounding boxes - B + C
+- 1.21.4 -  MiniHUD Extra - configure colours for all BoccHUD - mod integration & support - N + C
+- 1.21.4 -  ServuxForged - server support for BoccHUD & structure bounding boxes - WARNING Tobi fork to fix pack.mcmeta
+- 1.21.1 - SUPPLEMENTARIES - TWEAKS - tooltips for banner patterns
+- 1.21.1 - SUPPLEMENTARIES - TWEAKS - tooltips for paintings & sherds
+- 1.21.4 - Equipment Compare - compare items with currently held/equipped tools - CTRL + HOVER
+- 1.21.4 - Item Highlighter - animated star inventory icons on newly-picked up items
+- 1.21.4 - Iceberg - required for Equipment Compare & Item Highlighter - WARNING prism dependency download is unreliable (manually download instead)
+- 1.21.4 - Legendary Tooltips - fancy default tooltips for items - 3d preview for equipment - customisable item tooltips - OP ITEMS - WARNING annoying for tools (maybe only enable for armour)
+
+
+
+comMC
+- Simple Discord Link - Discord & Minecraft whitelist integration - https://discord.com/api/oauth2/authorize?client_id=1362269083793363056&permissions=277965401108&scope=bot%20applications.commands
+
+Kaito 
+- Xaero's Minimap - 
+- version missing - Bigger Stacks - hold more than 64
+- version missing - Butchery
+- version missing - Better Combat
+- version missing - Basic Weapons / Simply Swords
+- real fishing mod
+- vein miner
+
+nish
+- prox chat
+- pinging
+
+tobi
+- multi mine - mine the same block with others
+- downed not out - can be revived before dying
+- tree harvester
