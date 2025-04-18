@@ -65,8 +65,8 @@ Kaito
 - vein miner
 
 nish
+- Ping Wheel
 - prox chat
-- pinging
 
 tobi
 - multi mine - mine the same block with others
