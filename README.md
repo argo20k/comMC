@@ -48,24 +48,26 @@
     - [Modrinth App](https://modrinth.com/app)
     - [CurseForge App](https://www.curseforge.com/download/app)
 2. Drag & drop modpack URL into Prism Launcher
-    - [Prism Launcher / Modrinth version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-modrinth.mrpack>) ❤️
-    - [CurseForge version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-curseforge.zip>)
-3. Join the comMC server in Multiplayer menu
-4. Run `/verify code` in Discord to link your accounts
-5. Done. You only need to do this once! See [Update](#update) next time.
+    - [Prism Launcher / Modrinth version (.mrpack)](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-modrinth.mrpack>) ❤️
+    - [CurseForge version (.zip)](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-curseforge.zip>)
+3. Launch the Game & Join the Server
+4. Go to `#general` in Discord & run `/verify <your-code>` to whitelist your account
+> 🎉 That’s it! You only need to do this set up once. 
+Next time, just follow the [Update](#update) steps below.
 
 <!-- UPDATE -->
 ## Update
 
-1. Drag & drop modpack URL into Prism Launcher
+1. MAKE A BACK UP
+2. Drag & drop modpack URL into Prism Launcher
     - [Prism Launcher / Modrinth version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-modrinth.mrpack>) ❤️
     - [CurseForge version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-curseforge.zip>)
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [ ] Add Roadmap
+- [x] Add [Changelog](./CHANGELOG.md)
+- [x] Add [Roadmap](https://github.com/argo20k/comMC?tab=readme-ov-file#roadmap)
 - [ ] Add Member Requested Mods
 - [ ] Plan comMC Season 2
     - [ ] Events & Mods

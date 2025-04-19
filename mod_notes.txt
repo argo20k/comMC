@@ -70,16 +70,15 @@ nish
 
 Tobi
 - PlayerRevive - revive a player within 60 seconds after death
-- finish readme + roadmap
 - spark - client/server performance profiler
 - motd to server version
 - add server icon
+- general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
 - multi mine - mine the same block with others
 - tree harvester
 - tablist ping
 - better looking savana mod
 - connected textures
-- general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
 
 Ben
 - wisdom / more experience enchant
