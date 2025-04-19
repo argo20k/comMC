@@ -16,7 +16,7 @@
 <h3 align="center">comMC</h3>
 
   <p align="center">
-    Our community designed Minecraft server
+    Our community Minecraft server
     <br />
     <a href="https://github.com/argo20k/comMC"><strong>Explore the docs »</strong></a>
     <br />
@@ -33,68 +33,33 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#install-1st-time">Install (1st Time)</a></li>
+    <li><a href="#update">Update</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
+<!-- INSTALLATION -->
+## Install (1st Time)
 
-<!-- GETTING STARTED -->
-## Getting Started
+1. Install Prism Launcher
+    - [Prism Launcher](https://prismlauncher.org/download/windows/) ❤️ (recommended)
+    - [Modrinth App](https://modrinth.com/app)
+    - [CurseForge App](https://www.curseforge.com/download/app)
+2. Drag & drop modpack URL into Prism Launcher
+    - [Prism Launcher / Modrinth version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-modrinth.mrpack>) ❤️
+    - [CurseForge version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-curseforge.zip>)
+3. Join the comMC server in Multiplayer menu
+4. Run `/verify code` in Discord to link your accounts
+5. Done. You only need to do this once! See [Update](#update) next time.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<!-- UPDATE -->
+## Update
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/argo20k/comMC.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin argo20k/comMC
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+1. Drag & drop modpack URL into Prism Launcher
+    - [Prism Launcher / Modrinth version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-modrinth.mrpack>) ❤️
+    - [CurseForge version](<https://github.com/argo20k/comMC/releases/download/v1.6/comMC-curseforge.zip>)
 
 <!-- ROADMAP -->
 ## Roadmap

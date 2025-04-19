@@ -19,7 +19,7 @@ Management
 - Configured - GUI mod config settings
 
 Zoom
-- Spyglass Improvements - spyglass zoom scroll - zoom keybind - accessories support - WARNING Tobi fork to fix mods.toml - WARNING no model support multiplayer? (https://github.com/juancarloscp52/spyglass-improvements/issues/43)
+- Spyglass Improvements - spyglass zoom scroll - zoom keybind - accessories support - WARNING no model support multiplayer? (https://github.com/juancarloscp52/spyglass-improvements/issues/43)
 - Camerapture - take/upload pictures - frame/album - SHIFT + RMB GUI
 - version missing - Useful Spyglass - Hwyla like entity health & armour info - marking enchant glowing effect when attacking - precision enchant perfect accuracy & no gravity CROUCH + RANGE WEAPON
 - version missing - Camera Overhaul - player movement visual feedback - camera rotations/shake
@@ -56,7 +56,7 @@ comMC
 - Simple Discord Link - Discord & Minecraft whitelist integration - https://discord.com/api/oauth2/authorize?client_id=1362269083793363056&permissions=277965401108&scope=bot%20applications.commands
 
 Kaito 
-- Xaero's Minimap - 
+- Xaero's Minimap
 - version missing - Bigger Stacks - hold more than 64
 - version missing - Butchery
 - version missing - Better Combat
@@ -68,7 +68,20 @@ nish
 - Ping Wheel
 - prox chat
 
-tobi
+Tobi
+- PlayerRevive - revive a player within 60 seconds after death
+- finish readme + roadmap
+- spark - client/server performance profiler
+- motd to server version
+- add server icon
 - multi mine - mine the same block with others
-- downed not out - can be revived before dying
 - tree harvester
+- tablist ping
+- better looking savana mod
+- connected textures
+- general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
+
+Ben
+- wisdom / more experience enchant
+- visual clutter textures - lower fire
+
