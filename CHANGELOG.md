@@ -1,12 +1,22 @@
 # Changelog
 
+## v1.7.4
+
+### Added or Changed
+
+- updated [README "Update"](https://github.com/argo20k/comMC?tab=readme-ov-file#update) - GIF tutorial & more steps
+- updated [README "Roadmap"](https://github.com/argo20k/comMC?tab=readme-ov-file#roadmap) - hyperlinked references
+- fixed Simple Discord Link /verify message
+- updated server MOTD
+- added server icon
+
 ## v1.7.3
 
 ### Added or Changed
 
 - added spark - client/server performance profiler
 - updated all mods
-- updated [README](./README.md)
+- updated [README](https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top)
 
 ## v1.4 - v1.7.2
 
