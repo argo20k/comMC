@@ -1,12 +1,35 @@
 # Changelog
 
+## 1.7.6
+
+### Added or Changed
+
+- 🚀 New mods
+  - Distant Horizons - further, but simpler render distance - pregenerating & multiplayer LOD sharing support
+  - Cut Through - attack foes behind blocks like tall grass
+  - Chat Heads
+  - Longer Chat History - 100 → 65000 messages - supports Server_Chat_Sync.mod
+  - Server Chat Sync - history while offline & rejoining
+  - Chat Impressive Animation - & removes message indicator
+  - Better "Add Server" - autofill server name - enter to confirm
+  - No Chat Reports - disables telemtry, chat, & player reporting
+  - Chat Notify - ping sound when your name is mentioned
+  - Cherished Worlds - favourite worlds - top of the list - can't be deleted while pinned
+  - Delete Worlds To Trash - restore deleted worlds from system recycle bin
+  - Configured Defaults - for game settings & resource packs for new installs
+- Updated mods
+  - Xaero's Minimap - `25.2.0` → `25.2.4` - fixed [crash](https://i.imgur.com/Jd5OqRE.png)? - credit @jerry
+  - PlayerRevive - `2.0.32` → `2.0.36`
+- Fixed server.properties - updated MOTD date formatting
+- Updated comMC Discord bot profile description - see #faq if you're new! - %playerCount% online
+
 ## 1.7.5
 
 ### Added or Changed
 
 - 🚀 New mods
     - Tree harvester - `CROUCH` + axe trees
-    - Ore Harvester - vein miner - `CROUCH` + pickaxe ores - WARNING balance with enchant? - @kaito
+    - Ore Harvester - vein miner - `CROUCH` + pickaxe ores - WARNING balance with enchant? - credit @kaito
     - Fast IP Ping - ping/connect to servers faster
 - updated server settings to improve performance (supposedly)
 - updated server gamerule - one player can sleep to pass the night 🛌

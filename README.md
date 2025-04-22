@@ -48,8 +48,8 @@
     - [Modrinth App](https://modrinth.com/app)
     - [CurseForge App](https://www.curseforge.com/download/app)
 2. Drag & drop modpack URL into Prism Launcher
-    - [Prism Launcher / Modrinth version (.mrpack)](<https://github.com/argo20k/comMC/releases/download/1.7.5/comMC-modrinth.mrpack>) ❤️
-    - [CurseForge version (.zip)](<https://github.com/argo20k/comMC/releases/download/1.7.5/comMC-curseforge.zip>)
+    - [Prism Launcher / Modrinth version (.mrpack)](<https://github.com/argo20k/comMC/releases/download/1.7.6/comMC-modrinth.mrpack>) ❤️
+    - [CurseForge version (.zip)](<https://github.com/argo20k/comMC/releases/download/1.7.6/comMC-curseforge.zip>)
 3. Launch the Game & Join the Server
 4. Go to `#general` in Discord & run `/verify <your-code>` to whitelist your account
 > 🎉 That’s it! You only need to do this set up once. 
@@ -69,8 +69,8 @@ Next time, just follow the [Update](#update) steps below.
       <img src="images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
     </a>
     
-    - [Prism Launcher / Modrinth version](<https://github.com/argo20k/comMC/releases/download/1.7.5/comMC-modrinth.mrpack>) ❤️
-    - [CurseForge version](<https://github.com/argo20k/comMC/releases/download/1.7.5/comMC-curseforge.zip>)
+    - [Prism Launcher / Modrinth version (.mrpack)](<https://github.com/argo20k/comMC/releases/download/1.7.6/comMC-modrinth.mrpack>) ❤️
+    - [CurseForge version (.zip)](<https://github.com/argo20k/comMC/releases/download/1.7.6/comMC-curseforge.zip>)
   
 <!-- ROADMAP -->
 ## Roadmap
