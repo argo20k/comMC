@@ -57,14 +57,14 @@
 
 1. Backup modpack in Prism Launcher
 
-<a href="common/images/duplicate-modpack-screenshot_bar.gif?raw=true">
-  <img src="common/images/duplicate-modpack-screenshot_bar.gif?raw=true" alt="Duplicate modpack Screen Shot" width="400"/>
-</a>
+   <a href="common/images/duplicate-modpack-screenshot_bar.gif?raw=true">
+    <img src="common/images/duplicate-modpack-screenshot_bar.gif?raw=true" alt="Duplicate modpack Screen Shot" width="400"/>
+   </a>
 
 2. Drag & drop modpack URL into Prism Launcher
 
    <a href="common/images/update-modpack-screenshot_bar.gif?raw=true">
-     <img src="common/images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
+    <img src="common/images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
    </a>
 
    - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.7.2/comMC-modrinth.mrpack) ❤️
