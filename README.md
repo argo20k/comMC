@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/argo20k/comMC">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="common/images/02 - logo - 512px.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">comMC</h3>
@@ -57,14 +57,14 @@
 
 1. Backup modpack in Prism Launcher
 
-<a href="images/duplicate-modpack-screenshot_bar.gif?raw=true">
-  <img src="images/duplicate-modpack-screenshot_bar.gif?raw=true" alt="Duplicate modpack Screen Shot" width="400"/>
+<a href="common/images/duplicate-modpack-screenshot_bar.gif?raw=true">
+  <img src="common/images/duplicate-modpack-screenshot_bar.gif?raw=true" alt="Duplicate modpack Screen Shot" width="400"/>
 </a>
 
 2. Drag & drop modpack URL into Prism Launcher
 
-   <a href="images/update-modpack-screenshot_bar.gif?raw=true">
-     <img src="images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
+   <a href="common/images/update-modpack-screenshot_bar.gif?raw=true">
+     <img src="common/images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
    </a>
 
    - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.7.2/comMC-modrinth.mrpack) ❤️
@@ -84,7 +84,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- MARKDOWN LINKS & common/images -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [issues-shield]: https://img.shields.io/github/issues/argo20k/comMC.svg?style=for-the-badge
