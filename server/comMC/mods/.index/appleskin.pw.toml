@@ -1,0 +1,16 @@
+filename = 'appleskin-neoforge-mc1.21.5-3.0.6.jar'
+name = 'AppleSkin'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a2c3260df0635ca4ed10ec2488078a119127389a2eb535544763f3962a5b452afaa758d77504888f1b2cdfc3ced38c9aeb98e997558561f9ed764c19d9065ad8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EsAfCjCV/versions/gYoWP0NK/appleskin-neoforge-mc1.21.5-3.0.6.jar'
+
+[update.modrinth]
+mod-id = 'EsAfCjCV'
+version = 'gYoWP0NK'

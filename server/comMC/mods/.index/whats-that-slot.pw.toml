@@ -1,0 +1,16 @@
+filename = 'whats-that-slot-neoforge-1.3.8+1.21.5.jar'
+name = "What's That Slot?"
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '96bf18772a9bafd73059b0b8c3520faad05664d4f8732ed904a5e709223f814d375699979b2c8bc273754b914e96ae26836538be220ee4f1c3315f7071c35fb8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7b5VoITI/versions/tdAgYP4z/whats-that-slot-neoforge-1.3.8%2B1.21.5.jar'
+
+[update.modrinth]
+mod-id = '7b5VoITI'
+version = 'tdAgYP4z'

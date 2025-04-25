@@ -1,0 +1,16 @@
+filename = 'Camerapture-1.10.0+mc1.21.5-neoforge.jar'
+name = 'Camerapture'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '585980ec6a03277be6abd705bf44f339dab77ec61012f09e65db67b268bc54d5b4e964e25cb9905da148fdedd041b664b286caa41d0f3b4d654eba1be7940304'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9dzLWnmZ/versions/QOuuFdOU/Camerapture-1.10.0%2Bmc1.21.5-neoforge.jar'
+
+[update.modrinth]
+mod-id = '9dzLWnmZ'
+version = 'QOuuFdOU'
