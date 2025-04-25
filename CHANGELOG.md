@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.7.2
+
+### Added or Changed
+
+- updated Tab Tweaks.mod - ping now shows correctly
+- removed Squishy's Status.mod until AFK Dim Names is compatible
+
 ## 1.7.7
 
 ### Added or Changed
