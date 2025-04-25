@@ -12,6 +12,7 @@
 ### Added or Changed
 
 - 🚀 New mods
+  - RightClickHarvest - `RMB` replant automatically - hoe tiers increases radius
   - One Click Join - quick join servers from main menu
   - Death Sorter - restores inventory layout after death
   - Death Finder - coordinates on death screen - distance from death - villager & pet support
