@@ -1,4 +1,5 @@
 Performance
+
 - spark - client/server performance profiler
 - ImmediatelyFast - Speed up immediate mode rendering
 - AI Improvements - disable look at goal (player or attack target) AI task - cause AIs to not face targets or walking directions - replaces default look controller with a more efficient version
@@ -10,6 +11,7 @@ Performance
 - More Culling - hide Block-/Entities that aren't visible
 - C2ME - chunk loading - vanilla parity
 - Sodium - optimised terrain, entities, GUIs, block entities, etc. renderer
+- Sodium Extra - visual bug fixes & more performance options
 - Lithium - optimised game physics, mob AI, block ticking, etc.
 - Fast IP Ping - ping/connect to servers faster
 - missing version - Better chunk loading - chunk loading - predictive chunkloading based on player movement - prevent players entering unloaded chunks
@@ -39,11 +41,13 @@ Performance
 - missing version - Mobtimizations - AI pathfinding, targeting, & scanning - WARNING minimal gameplay impact
 
 Management
+
 - Better Modlist - synitra connector fabric mod support
 - Controlling - search keybinds - WARNING assign keybind crash
 - Configured - GUI mod config settings
 
 Zoom
+
 - Spyglass Improvements - spyglass zoom scroll - zoom keybind - accessories support - WARNING no model support multiplayer? (https://github.com/juancarloscp52/spyglass-improvements/issues/43)
 - Camerapture - take/upload pictures - frame/album - CROUCH + RMB GUI
 - version missing - Useful Spyglass - Hwyla like entity health & armour info - marking enchant glowing effect when attacking - precision enchant perfect accuracy & no gravity CROUCH + RANGE WEAPON
@@ -52,10 +56,11 @@ Zoom
 - version missing - Better Third Person - 360 freecam while moving
 - version missing - Accessories - extra wearable inventories for accessories
 - version missing - Curios Compat Layer for Accessories
-    > Spyglass Improvements - hat spyglass
-    > Horse Expert - belt monocle
+  > Spyglass Improvements - hat spyglass
+  > Horse Expert - belt monocle
 
 HUD
+
 - AppleSkin - Food/hunger values - inventory tooltips & HUD
 - Durability Tooltip
 - GUI Clock - must be in inventory - F3 nerf - day counter
@@ -64,37 +69,55 @@ HUD
 - BetterF3 - custom debug HUD - more legible - F3 nerf - F3 + M
 - Held Item Tooltips - item durability, enchants, shulker box contents, potion effects, rocket durations, etc. - WARNING bad Durability Tooltip support
 - What's That Slot? - query item options for slots - LEFT ALT + HOVER
-- 1.21.4 - Food Effect Tooltips - status effect tooltips for food - supports % chance like rotten flesh
-- 1.21.4 - BoccHUD - custom permanent debug HUD - axolotol variant name - hive/nest bee/honey count - structure bounding boxes - B + C
-- 1.21.4 -  MiniHUD Extra - configure colours for all BoccHUD - mod integration & support - N + C
-- 1.21.4 -  ServuxForged - server support for BoccHUD & structure bounding boxes - WARNING Tobi fork to fix pack.mcmeta
+- BoccHUD - custom permanent debug HUD - axolotol variant name - hive/nest bee/honey count - structure bounding boxes - B + C
+- 1.21.4 - MiniHUD Extra - configure colours for all BoccHUD - mod integration & support - N + C
+- 1.21.4 - ServuxForged - server support for BoccHUD & structure bounding boxes - WARNING Tobi fork to fix pack.mcmeta
 - 1.21.1 - SUPPLEMENTARIES - TWEAKS - tooltips for banner patterns
 - 1.21.1 - SUPPLEMENTARIES - TWEAKS - tooltips for paintings & sherds
+- 1.21.4 - Food Effect Tooltips - status effect tooltips for food - supports % chance like rotten flesh
 - 1.21.4 - Equipment Compare - compare items with currently held/equipped tools - CTRL + HOVER
 - 1.21.4 - Item Highlighter - animated star inventory icons on newly-picked up items
 - 1.21.4 - Iceberg - required for Equipment Compare & Item Highlighter - WARNING prism dependency download is unreliable (manually download instead)
 - 1.21.4 - Legendary Tooltips - fancy default tooltips for items - 3d preview for equipment - customisable item tooltips - OP ITEMS - WARNING annoying for tools (maybe only enable for armour)
 
 comMC
+
 - Simple Discord Link - Discord & Minecraft whitelist integration - https://discord.com/api/oauth2/authorize?client_id=1362269083793363056&permissions=277965401108&scope=bot%20applications.commands
 
-Kaito 
+Kaito
+
 - Xaero's Minimap
 - Tree harvester - CROUCH + LMB
 - Ore Harvester - CROUCH + LMB - WARNING balance with enchant?
-- screenshot manager
+- RightClickHarvest - `RMB` replant automatically - hoe tiers increases radius
+- Screenshot to Clipboard
 - version missing - Bigger Stacks - hold more than 64
 - version missing - Butchery
 - version missing - Better Combat
 - version missing - Basic Weapons / Simply Swords
 - 1.21.1 - Fishing Real - reel live mobs when fishing
 
+Rui
+
+- teleport way stones
+- watch together in game
+- furnace variations
+- tnt variations
+- smaller crosshair
+
+Dan
+
+- yakutbutsu
+- boat jump
+
 nish
+
 - Ping Wheel
 - get your own mob spawners
 - prox chat
 
 Tobi
+
 - PlayerRevive - revive a player within 60 seconds after death
 - Chat Heads
 - Longer Chat History - 100 → 65000 messages - supports Server_Chat_Sync.mod
@@ -106,20 +129,45 @@ Tobi
 - Cut Through - attack foes behind blocks like tall grass
 - Cherished Worlds - favourite worlds - top of the list - can't be deleted while pinned
 - Delete Worlds To Trash - restore deleted worlds from system recycle bin
-- crop harvester
+- One Click Join - quick join servers from main menu
+- Death Sorter - restores inventory layout after death
+- Death Finder - coordinates on death screen - distance from death - villager & pet support
+- Death Backup - restore inventories after death (server management)
+- AFK & sleep
+  - Forked - Datapack - Detect AFK Players - performant 3 mins AFK timer - `/trigger afk` command - WARNING make `/afk` command?
+  - Forked - Datapack - AFK Dim Names
+  - Datapack - AFK Message
+  - Datapack - AFK Sit
+  - Datapack - Pause Day Cycle - day/weather is paused if players are AFK
+  - Datapack - AFK Sleep - ignore AFK players when sleeping
+  - Forked - Datapack - Sleep - regeneration after sleep - action bar announcement - supports AFK Sleep?
+  - Better Safe Bed - sleep if mobs can't target you
+  - Squishy's Status - open/DND, recording/streaming status - `U` by default
+  - 1.20.4 - Sleep Tight - cooldown sleeping - consecutive sleep nightmare (dread, prevent with dream essence) - dark place sleep encounter (place lights) - repeat single bed rewards, configurable saturation & XP gaining effect (bed bug destroys home bed, prevent with dream essence) - WARNING nightmares still reset sleep rework tiredness (unintended)
+  - 1.20.1 - Sleep Rework - tiredness level (0–10000%) - "zzz" inventory icon - phantoms start spawning & increases over 100%, 60 mins - potions effecting tiredness - WARNING wake up effect / benefit, timeout to rest without skipping the night on servers (sleep tight doesn't consider it sleeping), tutorial GUI lies (says you need 100% tiredness to sleep, but sleep tight handles cooldowns https://i.imgur.com/tH7EOVU.png)
+- Simple Discord RPC - Discord status while playing
+  - https://modrepo.de/minecraft/voicechat/wiki/server_setup
+  - https://modrepo.de/minecraft/voicechat/addons
+- Model Gap Fix
+- Simple Snowy Fix - snow generation on tree leaves
+- Tab Tweaks - custom player list HUD
+
+- Grabby Mobs
+- Chestpack Backpacks
+- beta testing discord rpc
+- wearing heads / pumpkin hides username
+- miniboss & enemy variants
+- natural leaf piles
 - adjust single sounds - villager
-- sleeping mods
-    - Monsters in the Closet
 - multi mine - mine the same block with others
-- afk mod
 - tablist ping
 - better looking savana mod
 - connected textures
 - taiga night sweeper moment
 - not added - WARNING crashes - ChatImage - hover over chat message to show image/GIF
-- not added - WARNING crashes - One Click Join - join recent server from menu
 
 Ben
+
 - Distant Horizons - further, but simpler render distance - pregenerating & multiplayer LOD sharing support
 - villager trade recycle
 - visual clutter textures - lower fire
@@ -127,5 +175,6 @@ Ben
 - wisdom / more experience enchant
 
 Jerry
+
 - brain rot mod
 - Archimedes ships
