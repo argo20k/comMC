@@ -16,7 +16,7 @@
   <p align="center">
     Our community Minecraft server
     <br />
-    <a href="https://github.com/argo20k/comMC"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/argo20k/comMC/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
