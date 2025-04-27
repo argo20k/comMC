@@ -12,6 +12,11 @@ Performance
 - C2ME - chunk loading - vanilla parity
 - Sodium - optimised terrain, entities, GUIs, block entities, etc. renderer
 - Sodium Extra - visual bug fixes & more performance options
+- Sodium Extras - customise & new features
+- Sodium Options API - improved category menu
+- Reese's Sodium Options - improved category menu
+- Sodium Dynamic Lights - Sodium options support
+- Sodium Shadowy Path Blocks - non-full block smooth lighting
 - Lithium - optimised game physics, mob AI, block ticking, etc.
 - Fast IP Ping - ping/connect to servers faster
 - missing version - Better chunk loading - chunk loading - predictive chunkloading based on player movement - prevent players entering unloaded chunks
@@ -82,7 +87,7 @@ HUD
 
 comMC
 
-- Simple Discord Link - Discord & Minecraft whitelist integration - https://discord.com/api/oauth2/authorize?client_id=1362269083793363056&permissions=277965401108&scope=bot%20applications.commands
+- Simple Discord Link - Discord & Minecraft whitelist integration
 
 Kaito
 
@@ -169,6 +174,8 @@ Tobi
 Ben
 
 - Distant Horizons - further, but simpler render distance - pregenerating & multiplayer LOD sharing support
+- ServerCore - dynamic server settings based on performance
+- Clumps - instant pickup experience orbs
 - villager trade recycle
 - visual clutter textures - lower fire
 - translator with subtitles
