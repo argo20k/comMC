@@ -2,7 +2,7 @@
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = "762726289341677668"
+	applicationID = "1362269083793363056"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -22,21 +22,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Minecraft is loading"
+		description = "Launching Game..."
 		#The second line of text under the app name
-		state = "Game Starting..."
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
+		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[init.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Main Menu event
 [main_menu]
@@ -48,21 +51,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} is currently lazy"
+		description = "Browsing Main Menu"
 		#The second line of text under the app name
-		state = "Chilling in the menu"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[main_menu.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Server List event
 [server_list]
@@ -74,21 +80,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} is looking for a server"
+		description = "Browsing Server List"
 		#The second line of text under the app name
-		state = "Searching for friends"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[server_list.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Realms Screen event
 [realms_list]
@@ -100,21 +109,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} is looking for a Realm"
+		description = "Browsing Realms"
 		#The second line of text under the app name
-		state = "Browsing Realms"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[realms_list.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Join Game Event
 [join_game]
@@ -126,21 +138,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} is joining a game"
+		description = "Joining world..."
 		#The second line of text under the app name
-		state = "Joining Game"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[join_game.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Single Player Event
 [single_player]
@@ -152,21 +167,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Currently In {{world.name}}"
+		description = "Singeplayer in \"{{world.savename}}\""
 		#The second line of text under the app name
-		state = "Playing lonely mode"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+		
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[single_player.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Multi Player Event
 [multi_player]
@@ -178,21 +196,24 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Playing on {{server.name}} with {{server.players.count}} players"
+		description = "on \"{{server.name}}\" with {{server.players.count}} players"
 		#The second line of text under the app name
-		state = "Playing online"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+		
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[multi_player.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Realms Game Event
 [realms]
@@ -204,47 +225,53 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Playing on {{realm.name}}"
+		description = "Playing on \"{{realm.name}}\""
 		#The second line of text under the app name
-		state = "Playing on a Realm"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+		
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[realms.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #The Paused Event
 [paused]
 	#Enable/Disable the Pause Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[paused.presence]]
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "In the Pause Menu"
+		description = "Game Paused"
 		#The second line of text under the app name
-		state = "Game Paused"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+		
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[paused.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #Fallback event for disabled events
 [generic]
@@ -254,28 +281,36 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Playing Minecraft"
+		description = ""
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["commc_logo"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
+		smallImageText = "{{player.name}}"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
+
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[generic.presence.buttons]]
+			label = "comMC Project"
+			url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 #Custom Config Variables that you can use
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = true
+
 	#Your custom variables to add
-	variables = []
+	[[custom.variables]]
+		#The name of your variable. Will be parsed into {{custom.variablename}}
+		name = "version"
+		#The value that this variable will output
+		value = "1.7.8"
 
 #Dimension Information Overrides
 [dimension_overrides]
@@ -298,15 +333,18 @@
 			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["overworld"]
 			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the Overworld"
+			largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = ["{{images.player}}"]
 			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
+			smallImageText = "{{player.name}}"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
+
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.dimensions.presence.buttons]]
+				label = "comMC Project"
+				url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -323,15 +361,18 @@
 			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["nether"]
 			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the Nether"
+			largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = ["{{images.player}}"]
 			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
+			smallImageText = "{{player.name}}"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
+
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.dimensions.presence.buttons]]
+				label = "comMC Project"
+				url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -348,13 +389,16 @@
 			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["end"]
 			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the End"
+			largeImageText = "v{{custom.version}} ({{game.mods}} mods)"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = ["{{images.player}}"]
 			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
+			smallImageText = "{{player.name}}"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
+
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.dimensions.presence.buttons]]
+				label = "comMC Project"
+				url = "https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top"
 

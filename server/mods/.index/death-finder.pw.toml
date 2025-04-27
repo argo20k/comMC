@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.5' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'fecc843ea90ea88ba751a34c0ab62ad929a730d2'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '6f42111ddab2cdca3a2612f432faa6f06b997c37a8e6e87c15a9c2b3f16e93049c349ef67274ac35ce201b3702c44d46691db84d5fd77eaf7cc27d2458fbfe4e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wNxIBREV/versions/NiOM5hmU/DeathFinder-v21.5.0-1.21.5-NeoForge.jar'
 
-[update.curseforge]
-file-id = 6426285
-project-id = 327108
+[update.modrinth]
+mod-id = 'wNxIBREV'
+version = 'NiOM5hmU'

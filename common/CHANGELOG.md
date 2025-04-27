@@ -16,6 +16,7 @@
 - updated Simple Discord RPC.mod - project & version info in Discord status
 - all comMC project files are managed in this GitHub repo now - apart from modpacks
 - server now runs on **versioned** GitHub repo
+- disabled mods not needed server-side
 
 ## 1.7.7.2
 

@@ -43,7 +43,8 @@
 	[[botConfig.botStatus]]
 		#Do not add Playing. A status to display on the bot. You can use %players% and %maxplayers% to show the number of players on the server
 		#status = "Enjoying Minecraft with %players%/%maxplayers% players"
-		status = "%players% online"
+		#status = "Live w/ %players% players"
+		status = "Join with /verify | %players% online"
 		#The type of the status displayed on the bot. Valid entries are: PLAYING, STREAMING, WATCHING, LISTENING, CUSTOM_STATUS
 		botStatusType = "CUSTOM_STATUS"
 		#botStatusType = "STREAMING"
@@ -302,7 +303,7 @@
 		optionalVerificationMessage = "Your verification code is: {code}. Please DM our bot, or use the /verify command in our discord to verify your account"
 		#The message shown to players that are not verified
 		#accountVerification = "This server requires account verification. Your verification code is: {code}. Please visit our discord server for instructions on how to verify your account."
-		accountVerification = "§6Run §b/verify {code} §6in Discord to §awhitelist§6 your account"
+		accountVerification = "Run /verify {code} in Discord to whitelist your account"
 		#Message to show to players that are not a member of your discord
 		#nonMember = "Sorry, you need to be a member of our discord server to join this server"
 		nonMember = "You need to be a comMC Discord member"
