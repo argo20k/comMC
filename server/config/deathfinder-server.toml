@@ -13,7 +13,7 @@
 	player_deaths = true
 	#Show death message for villagers.
 	#Default Value: true
-	villager_deaths = true
+	villager_deaths = false
 
 [death_message_components]
 	#Add position component to death messages.

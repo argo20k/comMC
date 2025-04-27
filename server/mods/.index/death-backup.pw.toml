@@ -1,16 +1,16 @@
 filename = 'deathbackup-1.21.5-3.5.jar'
 name = 'Death Backup'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.5' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '05fed515850e9454e3385db7042518ef95ea1732'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '7caeed6784e64f73df40ae6796e1532e3f4e18a97aeb333403fb6a4911ab2190143c14d09848aced7e719b20327f47f1e93ed725c800aea3beb01cbc0df37ef6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ot5JFxuv/versions/axSNqgFc/deathbackup-1.21.5-3.5.jar'
 
-[update.curseforge]
-file-id = 6356853
-project-id = 411571
+[update.modrinth]
+mod-id = 'Ot5JFxuv'
+version = 'axSNqgFc'
