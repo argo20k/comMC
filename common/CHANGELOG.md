@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.7.8
+
+- 🚀 New mods
+  - Clumps - instant pickup experience orbs
+  - Sodium Extras - customise & new features - `F11` switches between `WINDOWED`, `BORDERLESS_FULLSCREEN`, & `FULLSCREEN`
+  - Sodium Options API - improved category menu
+  - Reese's Sodium Options - improved category menu
+  - Sodium Dynamic Lights - Sodium options support
+  - Sodium Shadowy Path Blocks - non-full block smooth lighting
+  - ServerCore - dynamic server settings based on performance
+- Changes to vanilla mechanics
+  - ServerCore.mod - dynamically changes chunk_tick_distance, mobcap, simulation_distance, & render_distance based on server performance
+  - ServerCore.mod - static breeding cap for villagers (32) & animals (128) - [details here](https://github.com/Wesley1808/ServerCore/blob/main/docs/config/OPTIMIZED.md#configyml)
+- updated Simple Discord RPC.mod - project & version info in Discord status
+- all comMC project files are managed in this GitHub repo now - apart from modpacks
+- server now runs on **versioned** GitHub repo
+
 ## 1.7.7.2
 
 ### Added or Changed
