@@ -1,6 +1,8 @@
 ssh_key
 common/forks
 
+# static libraries
 server/libraries
-server/world/*
+# dynamic world save data
+server/world
 !server/world/datapacks
