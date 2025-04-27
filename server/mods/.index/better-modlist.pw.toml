@@ -1,0 +1,16 @@
+filename = 'better_modlist-2.0.0-beta.6.jar'
+name = 'Better ModList'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'ef2b3b9a195270a30d5517ecaad3ea1880abd8f2809f1f623372e9cb618891a2900d33c8ca0d2416556f638a46cdb1a06c29dc08e2bf9c2c53647cb39afb6235'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sbpqhzIG/versions/imCSDnYR/better_modlist-2.0.0-beta.6.jar'
+
+[update.modrinth]
+mod-id = 'sbpqhzIG'
+version = 'imCSDnYR'

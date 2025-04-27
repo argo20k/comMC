@@ -1,0 +1,251 @@
+[27Apr2025 00:36:46.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 99 players online: 
+[27Apr2025 00:36:48.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27Apr2025 00:36:48.792] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_end].
+[27Apr2025 00:36:48.793] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[27Apr2025 00:36:48.796] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[27Apr2025 00:36:48.796] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[27Apr2025 00:36:48.797] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[27Apr2025 00:36:48.797] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[27Apr2025 00:36:48.797] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[27Apr2025 00:36:48.798] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[27Apr2025 00:36:48.798] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[27Apr2025 00:36:48.798] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[27Apr2025 00:36:48.999] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_end}].
+[27Apr2025 00:36:49.000] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_end}].
+[27Apr2025 00:36:49.000] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[27Apr2025 00:36:49.000] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[27Apr2025 00:36:49.004] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[27Apr2025 00:36:49.005] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[27Apr2025 00:36:49.205] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_end}].
+[27Apr2025 00:36:49.205] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_end}].
+[27Apr2025 00:36:49.206] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[27Apr2025 00:36:49.206] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_nether].
+[27Apr2025 00:36:49.206] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[27Apr2025 00:36:49.206] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[27Apr2025 00:36:49.206] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[27Apr2025 00:36:49.207] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[27Apr2025 00:36:49.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[27Apr2025 00:36:49.207] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[27Apr2025 00:36:49.207] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[27Apr2025 00:36:49.207] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[27Apr2025 00:36:49.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[27Apr2025 00:36:49.408] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_nether}].
+[27Apr2025 00:36:49.408] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_nether}].
+[27Apr2025 00:36:49.408] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[27Apr2025 00:36:49.408] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[27Apr2025 00:36:49.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[27Apr2025 00:36:49.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[27Apr2025 00:36:49.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_nether}].
+[27Apr2025 00:36:49.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:the_nether}].
+[27Apr2025 00:36:49.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[27Apr2025 00:36:49.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:overworld].
+[27Apr2025 00:36:49.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[27Apr2025 00:36:49.618] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section -1030792161018
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@2a6c7f81 rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 31504]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.620] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section 1236950581510
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@51fb85f1 rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 18358]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.621] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section -1992864827898
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@366fff72 rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 313112]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.621] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section -1924145348602
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@3c44239b rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 306684]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.623] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section -1236950594042
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@77f4e779 rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 39007]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.624] [Server thread/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Error when terminating data generation for section -1099511637498
+java.util.concurrent.RejectedExecutionException: Task com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable@27b5b28b rejected from com.seibel.distanthorizons.core.util.threading.RateLimitedThreadPoolExecutor@1bcd2ca5[Running, pool size = 4, active threads = 4, queued tasks = 4, completed tasks = 31218]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.tryStartNextTask(PriorityTaskPicker.java:78) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker.access$200(PriorityTaskPicker.java:17) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$Executor.execute(PriorityTaskPicker.java:151) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.GenerationEvent.startEvent(GenerationEvent.java:79) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/loaderCommon.neoforge.com.seibel.distanthorizons.common.wrappers.worldGeneration.BatchGenerationEnvironment.generateChunks(BatchGenerationEnvironment.java:1128) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.BatchGenerator.generateChunks(BatchGenerator.java:121) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startGenerationEvent(WorldGenerationQueue.java:403) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.tryStartingWorldGenTaskGroup(WorldGenerationQueue.java:346) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.startNextWorldGenTask(WorldGenerationQueue.java:291) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at TRANSFORMER/distanthorizons@2.3.2-b/com.seibel.distanthorizons.core.generation.WorldGenerationQueue.lambda$startWorldGenQueuingThread$1(WorldGenerationQueue.java:212) ~[DistantHorizons-neoforge-fabric-2.3.2-b-1.21.5.jar%23236!/:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[27Apr2025 00:36:49.625] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[27Apr2025 00:36:49.625] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[27Apr2025 00:36:49.626] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[27Apr2025 00:36:49.626] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[27Apr2025 00:36:49.626] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[27Apr2025 00:36:49.626] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[27Apr2025 00:36:49.626] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[27Apr2025 00:36:49.626] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[27Apr2025 00:36:49.827] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:overworld}].
+[27Apr2025 00:36:49.827] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:overworld}].
+[27Apr2025 00:36:49.827] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[27Apr2025 00:36:49.827] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[27Apr2025 00:36:49.835] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[27Apr2025 00:36:49.835] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[27Apr2025 00:36:50.035] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{aejgr0lol083u@minecraft:overworld}].
+[27Apr2025 00:36:50.036] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{aejgr0lol083u@minecraft:overworld}].
+[27Apr2025 00:36:50.036] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[27Apr2025 00:36:50.036] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[27Apr2025 00:36:50.036] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[27Apr2025 00:36:50.036] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[27Apr2025 00:36:50.037] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [0] database connections...
+[27Apr2025 00:36:50.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Apr2025 00:36:50.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Apr2025 00:36:50.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Apr2025 00:36:50.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[27Apr2025 00:36:50.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27Apr2025 00:36:50.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27Apr2025 00:36:50.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27Apr2025 00:36:50.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Apr2025 00:36:50.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Apr2025 00:36:50.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Apr2025 00:36:50.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Apr2025 00:36:50.314] [C2ME Storage #3/INFO] [C2ME Storage/]: Storage thread Thread[#101,C2ME Storage #3,5,SERVER] stopped
+[27Apr2025 00:36:50.341] [C2ME Storage #2/INFO] [C2ME Storage/]: Storage thread Thread[#100,C2ME Storage #2,5,SERVER] stopped
+[27Apr2025 00:36:50.365] [C2ME Storage #1/INFO] [C2ME Storage/]: Storage thread Thread[#98,C2ME Storage #1,5,SERVER] stopped
+[27Apr2025 00:36:50.393] [C2ME Storage #6/INFO] [C2ME Storage/]: Storage thread Thread[#112,C2ME Storage #6,5,SERVER] stopped
+[27Apr2025 00:36:50.805] [C2ME Storage #5/INFO] [C2ME Storage/]: Storage thread Thread[#111,C2ME Storage #5,5,SERVER] stopped
+[27Apr2025 00:36:50.916] [C2ME Storage #4/INFO] [C2ME Storage/]: Storage thread Thread[#110,C2ME Storage #4,5,SERVER] stopped
+[27Apr2025 00:36:50.927] [C2ME Storage #9/INFO] [C2ME Storage/]: Storage thread Thread[#117,C2ME Storage #9,5,SERVER] stopped
+[27Apr2025 00:36:50.933] [C2ME Storage #8/INFO] [C2ME Storage/]: Storage thread Thread[#116,C2ME Storage #8,5,SERVER] stopped
+[27Apr2025 00:36:50.937] [C2ME Storage #7/INFO] [C2ME Storage/]: Storage thread Thread[#115,C2ME Storage #7,5,SERVER] stopped
+[27Apr2025 00:36:50.944] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config deathfinder-server.toml
+[27Apr2025 00:36:51.273] [JDA RateLimit-Elastic-Worker 47/ERROR] [com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester/]: There was an I/O error while executing a REST request: null
+[27Apr2025 00:36:51.280] [ForkJoinPool.commonPool-worker-214/ERROR] [com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.RestAction/]: RestAction queue returned failure
+com.hypherionmc.sdlink.shaded.dv8tion.jda.api.exceptions.ErrorResponseException: -1: java.io.InterruptedIOException
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.exceptions.ErrorResponseException.create(ErrorResponseException.java:206) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.Request.createErrorResponseException(Request.java:158) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.RestActionImpl.handleResponse(RestActionImpl.java:290) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.Request.handleResponse(Request.java:306) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester$WorkTask.handleResponse(Requester.java:448) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester$WorkTask.access$400(Requester.java:378) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester.execute(Requester.java:278) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester.execute(Requester.java:157) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester.execute(Requester.java:140) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester$WorkTask.execute(Requester.java:406) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.SequentialRestRateLimiter$Bucket.execute(SequentialRestRateLimiter.java:478) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.SequentialRestRateLimiter$Bucket.run(SequentialRestRateLimiter.java:518) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.InterruptedIOException
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http2.Http2Stream.waitForIo$okhttp(Http2Stream.kt:660) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.kt:140) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.kt:97) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.kt:110) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.kt:93) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:34) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.okhttp3.internal.connection.RealCall.execute(RealCall.kt:154) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.Requester.execute(Requester.java:202) ~[?:?]
+	... 8 more
+Caused by: com.hypherionmc.sdlink.shaded.dv8tion.jda.api.exceptions.ContextException
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.exceptions.ContextException.here(ContextException.java:54) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.Request.<init>(Request.java:78) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.internal.requests.RestActionImpl.queue(RestActionImpl.java:203) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:577) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.shaded.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:543) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.api.messaging.discord.DiscordMessage.sendConsoleMessage(DiscordMessage.java:218) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.api.messaging.discord.DiscordMessage.sendMessage(DiscordMessage.java:83) ~[?:?]
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.util.LogReader.lambda$scheduleMessage$0(LogReader.java:110) ~[?:?]
+	... 1 more

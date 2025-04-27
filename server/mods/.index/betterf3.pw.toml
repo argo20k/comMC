@@ -1,0 +1,16 @@
+filename = 'BetterF3-14.0.0-NeoForge-1.21.5.jar'
+name = 'BetterF3'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2414d07fa764741208f9e1ca7f9f5d8e4247c5a5bde8f656c69813178dfa75949a14ba0fb7a983d7c0811a32317fc70a9959a8cf3d7c499383f26617c3d20c8e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8shC1gFX/versions/yioiBxNH/BetterF3-14.0.0-NeoForge-1.21.5.jar'
+
+[update.modrinth]
+mod-id = '8shC1gFX'
+version = 'yioiBxNH'

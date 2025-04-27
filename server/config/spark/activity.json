@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "argo20k",
+      "uniqueId": "8ebe7e10-0084-47f5-9dbe-dcb8656bb1fc"
+    },
+    "time": 1744989096516,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pRDvrYI2GP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "argo20k",
+      "uniqueId": "8ebe7e10-0084-47f5-9dbe-dcb8656bb1fc"
+    },
+    "time": 1744989035803,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/EbMSo19UOy"
+    }
+  }
+]

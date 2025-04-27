@@ -1,0 +1,16 @@
+filename = 'spark-1.10.128-neoforge.jar'
+name = 'spark'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0c70739f3c28b7200ba60d0e7aaa838711f2291835ccd389f4c526970a75a282d4f0ad2f0fbf86e06693a054f9d165f10301b56733fa2f91e7c51cc7ef132a49'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/l6YH9Als/versions/nc22bEB1/spark-1.10.128-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'l6YH9Als'
+version = 'nc22bEB1'

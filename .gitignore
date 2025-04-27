@@ -1,2 +1,6 @@
 ssh_key/
 common/forks
+
+server/libraries
+server/world/*
+!server/world/datapacks

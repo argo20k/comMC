@@ -1,0 +1,16 @@
+filename = 'guicompass-1.21.5-4.9.jar'
+name = 'GUI Compass'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b9c695fb24920ce517c35cbdca2a90e7a4bcf9670a6f29ae311d2cecca04a4cfe17cad37ba25c37235d7a1ac1f962ca603e8d2156cba7e553cb07568eba071c0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZORMkttv/versions/t6olO0Jh/guicompass-1.21.5-4.9.jar'
+
+[update.modrinth]
+mod-id = 'ZORMkttv'
+version = 't6olO0Jh'

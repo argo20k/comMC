@@ -1,0 +1,16 @@
+filename = 'PlayerRevive_NEOFORGE_v2.0.36_mc1.21.5.jar'
+name = 'PlayerRevive'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '88776b00b3c1485121e84adba986a248fb101ca100bfa54da1ac508a3cf9badd1bc10425f662b8e4f94660771c9bc54f72b08575546db95525af2f20203c2bad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ABIMzABM/versions/J8i77Jjf/PlayerRevive_NEOFORGE_v2.0.36_mc1.21.5.jar'
+
+[update.modrinth]
+mod-id = 'ABIMzABM'
+version = 'J8i77Jjf'

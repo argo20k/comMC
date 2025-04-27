@@ -1,0 +1,146 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 2025-04-17 05:09:11
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at TRANSFORMER/craterlib@2.1.4/shadow.hypherionmc.moonconfig.core.conversion.ObjectConverter.convertConfigsToObject(ObjectConverter.java:433) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+-- Mod loading issue for: sdlink --
+Details:
+	Mod file: /home/ubuntu/mcServer/comMcV2/mods/SimpleDiscordLink-Universal-3.3.0.jar
+	Failure message: Simple Discord Link (sdlink) has failed to load correctly
+		shadow.hypherionmc.moonconfig.core.conversion.InvalidValueException: Unexpected element of type class java.lang.Long for field allowedChannels
+	Mod version: 3.3.0
+	Mod issues URL: https://github.com/firstdarkdev/sdlink/issues
+	Exception message: shadow.hypherionmc.moonconfig.core.conversion.InvalidValueException: Unexpected element of type class java.lang.Long for field allowedChannels
+Stacktrace:
+	at TRANSFORMER/craterlib@2.1.4/shadow.hypherionmc.moonconfig.core.conversion.ObjectConverter.convertConfigsToObject(ObjectConverter.java:433) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/craterlib@2.1.4/shadow.hypherionmc.moonconfig.core.conversion.ObjectConverter.convertToObject(ObjectConverter.java:286) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/craterlib@2.1.4/shadow.hypherionmc.moonconfig.core.conversion.ObjectConverter.convertToObject(ObjectConverter.java:242) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/craterlib@2.1.4/shadow.hypherionmc.moonconfig.core.conversion.ObjectConverter.toObject(ObjectConverter.java:99) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/craterlib@2.1.4/com.hypherionmc.craterlib.core.config.formats.TomlConfigFormat.readConfig(TomlConfigFormat.java:33) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/craterlib@2.1.4/com.hypherionmc.craterlib.core.config.AbstractConfig.readConfig(AbstractConfig.java:63) ~[CraterLib-NeoForge-1.21.5-2.1.4.jar%23163!/:2.1.4] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.core.config.SDLinkConfig.configReloaded(SDLinkConfig.java:136) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.core.config.SDLinkConfig.registerAndSetup(SDLinkConfig.java:103) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.core.config.SDLinkConfig.<init>(SDLinkConfig.java:88) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.core.discord.BotController.<init>(BotController.java:75) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.core.discord.BotController.newInstance(BotController.java:106) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.server.ServerEvents.<init>(ServerEvents.java:67) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.server.ServerEvents.getInstance(ServerEvents.java:61) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at TRANSFORMER/sdlink@3.3.0/com.hypherionmc.sdlink.loaders.neoforge.SDLinkNeoForge.<init>(SDLinkNeoForge.java:23) ~[SimpleDiscordLink-Universal-3.3.0.jar%23171!/:3.3.0] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-7.0.10.jar%2371!/:7.0] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:151) ~[loader-7.0.10.jar%2371!/:7.0] {}
+	at MC-BOOTSTRAP/fml_loader@7.0.10/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:229) ~[loader-7.0.10.jar%2371!/:7.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {re:mixin}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Linux (aarch64) version 6.8.0-1023-oracle
+	Java Version: 21.0.6, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 7917161088 bytes (7550 MiB) / 8589934592 bytes (8192 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 4
+	Processor Vendor: ARM
+	Processor Name: Neoverse-N1
+	Identifier: ARM Family 8 Model 0xd0c Stepping r3p1
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Virtio GPU
+	Graphics card #0 vendor: Red Hat, Inc.
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: version: 01
+	Virtual memory max (MiB): 11990.45
+	Virtual memory used (MiB): 2429.48
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 126678.08, total: 148662.11
+	Space in storage for workdir (MiB): available: 126678.08, total: 148662.11
+	JVM Flags: 2 total; -Xms8G -Xmx8G
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-7.0.10.jar slf4jfixer PLUGINSERVICE 
+		loader-7.0.10.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.2.jar accesstransformer PLUGINSERVICE 
+		loader-7.0.10.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@7.0
+		minecraft@7.0
+	Mod List: 
+		AI-Improvements-1.21.5-0.5.3.jar                  |AI-Improvements               |aiimprovements                |0.5.3               |Manifest: NOSIGNATURE
+		Almanac-1.21.5-neoforge-1.4.5.jar                 |Almanac                       |almanac                       |1.4.5               |Manifest: NOSIGNATURE
+		alternate_current-mc1.21.5-1.9.0.jar              |Alternate Current             |alternate_current             |1.9.0               |Manifest: NOSIGNATURE
+		cloth-config-18.0.145-neoforge.jar                |Cloth Config v17 API          |cloth_config                  |18.0.145            |Manifest: NOSIGNATURE
+		c2me-neoforge-mc1.21.5-0.3.3+alpha.0.63.jar       |Concurrent Chunk Management En|c2me                          |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-base-mc1.21.5-0.3.3+alpha.0.63-all.jar       |Concurrent Chunk Management En|c2me_base                     |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-client-uncapvd-mc1.21.5-0.3.3+alpha.0.63.jar |Concurrent Chunk Management En|c2me_client_uncapvd           |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-chunkio-threading-issues-mc1.21.5-0.3.3|Concurrent Chunk Management En|c2me_fixes_chunkio_threading_i|0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-general-threading-issues-mc1.21.5-0.3.3|Concurrent Chunk Management En|c2me_fixes_general_threading_i|0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-worldgen-threading-issues-mc1.21.5-0.3.|Concurrent Chunk Management En|c2me_fixes_worldgen_threading_|0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-worldgen-vanilla-bugs-mc1.21.5-0.3.3+al|Concurrent Chunk Management En|c2me_fixes_worldgen_vanilla_bu|0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-notickvd-mc1.21.5-0.3.3+alpha.0.63.jar       |Concurrent Chunk Management En|c2me_notickvd                 |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-chunkio-mc1.21.5-0.3.3+alpha.0.63.jar   |Concurrent Chunk Management En|c2me_opts_chunkio             |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-dfc-mc1.21.5-0.3.3+alpha.0.63.jar       |Concurrent Chunk Management En|c2me_opts_dfc                 |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-worldgen-general-mc1.21.5-0.3.3+alpha.0.|Concurrent Chunk Management En|c2me_opts_worldgen_general    |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-math-mc1.21.5-0.3.3+alpha.0.63.jar      |Concurrent Chunk Management En|c2me_opts_math                |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-allocs-mc1.21.5-0.3.3+alpha.0.63.jar    |Concurrent Chunk Management En|c2me_opts_allocs              |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-natives-math-mc1.21.5-0.3.3+alpha.0.63.j|Concurrent Chunk Management En|c2me_opts_natives_math        |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-scheduling-mc1.21.5-0.3.3+alpha.0.63.jar|Concurrent Chunk Management En|c2me_opts_scheduling          |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-opts-worldgen-vanilla-mc1.21.5-0.3.3+alpha.0.|Concurrent Chunk Management En|c2me_opts_worldgen_vanilla    |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunkio-mc1.21.5-0.3.3+alpha.0.63.ja|Concurrent Chunk Management En|c2me_rewrites_chunkio         |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunk-serializer-mc1.21.5-0.3.3+alph|Concurrent Chunk Management En|c2me_rewrites_chunk_serializer|0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunk-system-mc1.21.5-0.3.3+alpha.0.|Concurrent Chunk Management En|c2me_rewrites_chunk_system    |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-server-utils-mc1.21.5-0.3.3+alpha.0.63.jar   |Concurrent Chunk Management En|c2me_server_utils             |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		c2me-threading-lighting-mc1.21.5-0.3.3+alpha.0.63.|Concurrent Chunk Management En|c2me_threading_lighting       |0.3.3+alpha.0.63+1.2|Manifest: NOSIGNATURE
+		conditional-mixin-neoforge-0.6.3.jar              |conditional mixin             |conditional_mixin             |0.6.3               |Manifest: NOSIGNATURE
+		CraterLib-NeoForge-1.21.5-2.1.4.jar               |CraterLib                     |craterlib                     |2.1.4               |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.7.4-mc1.21.5.jar         |EntityCulling                 |entityculling                 |1.7.4               |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-6.0.0.jar                  |Fabric Renderer API (CaffeineM|fabric_renderer_api_v1        |6.0.0               |Manifest: NOSIGNATURE
+		ferritecore-8.0.0-neoforge.jar                    |Ferrite Core                  |ferritecore                   |8.0.0               |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		getittogetherdrops-neoforge-1.21-1.3.2.jar        |Get It Together, Drops!       |getittogetherdrops            |1.3.2               |Manifest: NOSIGNATURE
+		ImmediatelyFast-NeoForge-1.9.3+1.21.5.jar         |ImmediatelyFast               |immediatelyfast               |1.9.3+1.21.5        |Manifest: NOSIGNATURE
+		letmedespawn-1.21.5-neoforge-1.5.1.jar            |Let Me Despawn                |letmedespawn                  |1.5.1               |Manifest: NOSIGNATURE
+		lithium-neoforge-0.16.2+mc1.21.5.jar              |Lithium                       |lithium                       |0.16.2+mc1.21.5     |Manifest: NOSIGNATURE
+		server-1.21.5-20250325.162830-srg.jar             |Minecraft                     |minecraft                     |1.21.5              |Manifest: NOSIGNATURE
+		moreculling-neoforge-1.21.5-1.3.0.jar             |More Culling                  |moreculling                   |1.3.0               |Manifest: NOSIGNATURE
+		neoforge-21.5.40-beta-universal.jar               |NeoForge                      |neoforge                      |21.5.40-beta        |Manifest: NOSIGNATURE
+		SimpleDiscordLink-Universal-3.3.0.jar             |Simple Discord Link           |sdlink                        |3.3.0               |Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.13+mc1.21.5.jar               |Sodium                        |sodium                        |0.6.13+mc1.21.5     |Manifest: NOSIGNATURE
+	Crash Report UUID: 134cb482-3102-46c2-ab7d-b59f8043a8a1
+	FML: 7.0.10
+	NeoForge: 21.5.40-beta

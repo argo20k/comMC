@@ -1,0 +1,16 @@
+filename = 'Searchables-neoforge-1.21.5-1.0.2.jar'
+name = 'Searchables'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '87cdd321480875a958ebbde5c7c28a8776087e6e2fc659fffdee7e08c3e3f07e0ce2827b0ab1f4ecc2872c17ece450ee04722364b425695cf9f42c7349cbf1ce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fuuu3xnx/versions/YQinrZup/Searchables-neoforge-1.21.5-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'fuuu3xnx'
+version = 'YQinrZup'

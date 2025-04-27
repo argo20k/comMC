@@ -1,0 +1,16 @@
+filename = 'jamlib-neoforge-1.3.5+1.21.5.jar'
+name = 'JamLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '22d2e4df3def59f3a0b16330654839f9fa3b298dc1fca85e3fd3399a74364f2a567dba8c58ed90e2dbe01fb1a3de7e9777cee1557773bce7ae615059fbb60d79'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IYY9Siz8/versions/VCYj0LFy/jamlib-neoforge-1.3.5%2B1.21.5.jar'
+
+[update.modrinth]
+mod-id = 'IYY9Siz8'
+version = 'VCYj0LFy'
