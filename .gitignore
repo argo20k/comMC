@@ -1,8 +1,7 @@
 ssh_key
 
+# static libraries
 server/libraries
-server/world/*
+# dynamic world save data
+server/world
 !server/world/datapacks
-!server/world/data
-
-common/forks/BlazeandCave's Advancements Pack 1.18.2-server-current-settings
