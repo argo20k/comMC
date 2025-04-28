@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:air",
+                "minecraft:cave_air",
+                "minecraft:water",
+                "minecraft:lava",
+                "minecraft:big_dripleaf",
+                "minecraft:cobweb",
+                "minecraft:powder_snow"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+  
