@@ -3,5 +3,6 @@ ssh_key
 server/libraries
 server/world/*
 !server/world/datapacks
+!server/world/data
 
 common/forks/BlazeandCave's Advancements Pack 1.18.2-server-current-settings
