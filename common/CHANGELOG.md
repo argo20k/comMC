@@ -1,5 +1,36 @@
 # Changelog
 
+## TODO
+
+- add simple voice chat & right click harvest to patch notes
+- 3d skin layers
+- grade mod
+
+- fix old changelog hyperlinks and github links
+- backup datapacks on github, mainly afk ones, and blaze and caves (doesn't have comMC settings) into /common/forks
+- connected textures
+- nametag improvements
+- https://modrinth.com/datapack/ly-clumps - https://i.imgur.com/2Jcrtgo.png
+- who's contributed to most advancement - interesting stat
+- rpc link to YT video
+- default datapacks - paxi - outdated
+- dh pregen
+- replay mod
+- clean up oracle server files - zomboid + boot volume names + storage
+- general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
+- added Discord `#faq` to re-enable coordinates - opt out of ping wheel
+- changed update instructions & GIF to use Discord server drag & drop message
+- separate curseforge tutorial to different file
+- added version info to main menu
+- update #faq
+  - add simpler channel hiding with <id:customize>
+  - add "hide most channels" button in onboarding questions
+- "don't record me role" - can't join #"🔴│recording" - <id:customize> - #role-info
+- nice 1.21.5 seed `-8546090065308567931`
+
+- afk/unafk hotkey - `/trigger afk` - mute sounds
+- unbreaking villager + villager home
+
 ## 1.7.8
 
 - 🚀 New mods
