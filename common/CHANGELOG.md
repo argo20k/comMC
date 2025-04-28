@@ -3,6 +3,8 @@
 ## 1.7.9
 
 - 🚀 New mods
+  - Simple Voice Chat - in-game voice chat
+  - RightClickHarvest - `RMB` replant crops automatically - hoe tiers increases radius
   - Waystones - teleport to activated waystones
   - Infinite Trading - villager trades are always available
   - Trade Cycling - cycle trades of villagers who haven't traded before

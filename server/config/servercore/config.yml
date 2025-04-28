@@ -14,9 +14,9 @@ features:
   autosave-interval-seconds: 300
   # The fraction that decides the chance of experience orbs being able to merge with each other. (1 = 100%, 40 = 2.5%)
   # Note that just like in vanilla, experience orbs will still need to be of the same size to actually merge.
-  xp-merge-fraction: 0
+  xp-merge-fraction: 999999999999999999
   # The radius in blocks that experience orbs will merge at.
-  xp-merge-radius: 0
+  xp-merge-radius: 0.5
   # The radius in blocks that items will merge at.
   item-merge-radius: 0.5
   lobotomize-villagers:

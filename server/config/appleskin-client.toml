@@ -1,6 +1,6 @@
 [client]
 	#If true, adds a line that shows your hunger, saturation, and exhaustion level in the F3 debug overlay
-	showFoodStatsInDebugOverlay = true
+	showFoodStatsInDebugOverlay = false
 	#If true, shows the hunger and saturation values of food in its tooltip while holding SHIFT
 	showFoodValuesInTooltip = true
 	#If true, shows the hunger and saturation values of food in its tooltip automatically (without needing to hold SHIFT)
