@@ -43,8 +43,7 @@
 	[[botConfig.botStatus]]
 		#Do not add Playing. A status to display on the bot. You can use %players% and %maxplayers% to show the number of players on the server
 		#status = "Enjoying Minecraft with %players%/%maxplayers% players"
-		#status = "Live w/ %players% players"
-		status = "Join with /verify | %players% online"
+		status = "%players% online"
 		#The type of the status displayed on the bot. Valid entries are: PLAYING, STREAMING, WATCHING, LISTENING, CUSTOM_STATUS
 		botStatusType = "CUSTOM_STATUS"
 		#botStatusType = "STREAMING"

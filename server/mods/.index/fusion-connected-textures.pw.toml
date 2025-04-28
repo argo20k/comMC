@@ -1,0 +1,16 @@
+filename = 'fusion-1.2.7b-neoforge-mc1.21.5.jar'
+name = 'Fusion (Connected Textures)'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7f35b36a47a268fec538efe8211fdd6bc0d9e777cf5c242cb099300d2180067b271cd38fe4c2abdef70d635d55e247d6fd8d0a1b0d399731045f05645b562941'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/p19vrgc2/versions/Vk9fqxvG/fusion-1.2.7b-neoforge-mc1.21.5.jar'
+
+[update.modrinth]
+mod-id = 'p19vrgc2'
+version = 'Vk9fqxvG'

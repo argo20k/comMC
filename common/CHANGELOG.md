@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.7.9
+
+- 🚀 New mods
+  - Simple Voice Chat - in-game voice chat
+  - RightClickHarvest - `RMB` replant crops automatically - hoe tiers increases radius
+  - Waystones - teleport to activated waystones
+  - Infinite Trading - villager trades are always available
+  - Trade Cycling - cycle trades of villagers who haven't traded before
+  - Nice Sitting Players - sit anywhere by holding `STRAFE LEFT` + `STRAFE RIGHT` for 2 seconds
+  - Wandering Pets - `CROUCH + RMB` to toggle pets' follow and wander states
+  - Fusion (Connected Textures)
+  - 3D Skin Layers
+- added new shaderpack - Complementary Reimagined
+- removed `A + C` hotkey from MaFgLib
+- fixed ServerCore.mod xp merging
+- fixed Simple Discord Link.mod status - `%players% online`
+- removed Get It Together Items.mod - ruined immersion a little
+- disabled BetterF3.mod target fluid debug info - showed coordinates - use a compass instead
+- disabled AppleSkin.mod debug stats from F3
+- Updated mods
+  - BoccHUD - `0.3.1` → `0.3.2`
+  - Simple Discord RPC - `4.0.1` → `4.0.2`
+
 ## 1.7.8
 
 - 🚀 New mods
