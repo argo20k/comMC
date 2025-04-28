@@ -1,35 +1,25 @@
 # Changelog
 
-## TODO
+## 1.7.9
 
-- add simple voice chat & right click harvest to patch notes
-- 3d skin layers
-- grade mod
-
-- fix old changelog hyperlinks and github links
-- backup datapacks on github, mainly afk ones, and blaze and caves (doesn't have comMC settings) into /common/forks
-- connected textures
-- nametag improvements
-- https://modrinth.com/datapack/ly-clumps - https://i.imgur.com/2Jcrtgo.png
-- who's contributed to most advancement - interesting stat
-- rpc link to YT video
-- default datapacks - paxi - outdated
-- dh pregen
-- replay mod
-- clean up oracle server files - zomboid + boot volume names + storage
-- general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
-- added Discord `#faq` to re-enable coordinates - opt out of ping wheel
-- changed update instructions & GIF to use Discord server drag & drop message
-- separate curseforge tutorial to different file
-- added version info to main menu
-- update #faq
-  - add simpler channel hiding with <id:customize>
-  - add "hide most channels" button in onboarding questions
-- "don't record me role" - can't join #"🔴│recording" - <id:customize> - #role-info
-- nice 1.21.5 seed `-8546090065308567931`
-
-- afk/unafk hotkey - `/trigger afk` - mute sounds
-- unbreaking villager + villager home
+- 🚀 New mods
+  - Waystones - teleport to activated waystones
+  - Infinite Trading - villager trades are always available
+  - Trade Cycling - cycle trades of villagers who haven't traded before
+  - Nice Sitting Players - sit anywhere by holding `STRAFE LEFT` + `STRAFE RIGHT` for 2 seconds
+  - Wandering Pets - `CROUCH + RMB` to toggle pets' follow and wander states
+  - Fusion (Connected Textures)
+  - 3D Skin Layers
+- added new shaderpack - Complementary Reimagined
+- removed `A + C` hotkey from MaFgLib
+- fixed ServerCore.mod xp merging
+- fixed Simple Discord Link.mod status - `%players% online`
+- removed Get It Together Items.mod - ruined immersion a little
+- disabled BetterF3.mod target fluid debug info - showed coordinates - use a compass instead
+- disabled AppleSkin.mod debug stats from F3
+- Updated mods
+  - BoccHUD - `0.3.1` → `0.3.2`
+  - Simple Discord RPC - `4.0.1` → `4.0.2`
 
 ## 1.7.8
 
