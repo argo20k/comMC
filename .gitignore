@@ -5,3 +5,5 @@ server/libraries
 # dynamic world save data
 server/world
 !server/world/datapacks
+server-backup_01
+server/cache/c2me-dfc
