@@ -3,7 +3,11 @@ ssh_key
 # static libraries
 server/libraries
 # dynamic world save data
-server/world
+server/world/*
 !server/world/datapacks
+!server/world/level.dat
+!server/world/level.dat_old
 server-backup_01
+server-backup_02-1.7.9-forgot_to_add_datapacks
+server-backup_03-1.7.9-corrupted_level.dat_crash
 server/cache/c2me-dfc
