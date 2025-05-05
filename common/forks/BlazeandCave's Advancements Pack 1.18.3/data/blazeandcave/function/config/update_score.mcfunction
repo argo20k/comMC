@@ -1,1 +1,0 @@
-function bacap_rewards:update_score

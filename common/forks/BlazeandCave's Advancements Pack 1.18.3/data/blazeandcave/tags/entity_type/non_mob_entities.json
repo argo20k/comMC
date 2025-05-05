@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-	"#blazeandcave:non_mob_entities_sans_boats",
-	"#minecraft:boat",
-	"#blazeandcave:chest_boats"
-  ]
-}
