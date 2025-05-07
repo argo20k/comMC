@@ -67,8 +67,9 @@
     <img src="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif" alt="Update Modpack Tutorial GIF" width="400"/>
    </a>
 
-   - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack) ❤️
-   - [CurseForge version (.zip)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-curseforge.zip)
+   - Download for <img src="common/assets/Discord/prismlauncher.webp" alt="Prism Launcher" width="20" style="vertical-align: middle"/> [**Prism Launcher ❤️**](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack)
+   - Download for <img src="common/assets/Discord/modrinth.webp" alt="Modrinth" width="20" style="vertical-align: middle"/> [Modrinth App (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack)
+   - Download for <img src="common/assets/Discord/curseforge.webp" alt="CurseForge" width="20" style="vertical-align: middle"/> [CurseForge App (.zip)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-curseforge.zip)
 
 <!-- ROADMAP -->
 
