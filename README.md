@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/argo20k/comMC">
-    <img src="common/images/02 - logo - 512px.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/argo20k/comMC?tab=readme-ov-file#readme-top">
+    <img src="common/assets/02 - logo - 512px.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">comMC</h3>
@@ -55,16 +55,16 @@
 
 ## Update
 
-1. Backup modpack in Prism Launcher
+1. Make a backup
 
-   <a href="common/images/duplicate-modpack-screenshot_bar.gif?raw=true">
-    <img src="common/images/duplicate-modpack-screenshot_bar.gif?raw=true" alt="Duplicate modpack Screen Shot" width="400"/>
+   <a href="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif?raw=true">
+    <img src="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif?raw=true" alt="Backup Modpack Tutorial GIF" width="400"/>
    </a>
 
-2. Drag & drop modpack URL into Prism Launcher
+2. Drag & drop URL files
 
-   <a href="common/images/update-modpack-screenshot_bar.gif?raw=true">
-    <img src="common/images/update-modpack-screenshot_bar.gif" alt="Update modpack Screen Shot" width="400"/>
+   <a href="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif?raw=true">
+    <img src="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif" alt="Update Modpack Tutorial GIF" width="400"/>
    </a>
 
    - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack) ❤️
@@ -74,8 +74,8 @@
 
 ## Roadmap
 
-- [x] Add [Changelog](./common/CHANGELOG.md)
-- [x] Add [Roadmap](https://github.com/argo20k/comMC?tab=readme-ov-file#roadmap)
+- [x] Add [Changelog](./CHANGELOG.md)
+- [x] Add [Roadmap](#roadmap)
 - [ ] Add Member Requested Mods
 - [ ] Plan comMC Season 2
   - [ ] Events & Mods
@@ -84,7 +84,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & common/images -->
+<!-- MARKDOWN LINKS & common/assets -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [issues-shield]: https://img.shields.io/github/issues/argo20k/comMC.svg?style=for-the-badge
