@@ -57,13 +57,13 @@
 
 1. Make a backup
 
-   <a href="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif?raw=true">
-    <img src="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif?raw=true" alt="Backup Modpack Tutorial GIF" width="400"/>
+   <a href="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif">
+    <img src="common/assets/GitHub/backup_modpack_tutorial_progress_bar.gif" alt="Backup Modpack Tutorial GIF" width="400"/>
    </a>
 
 2. Drag & drop URL files
 
-   <a href="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif?raw=true">
+   <a href="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif">
     <img src="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif" alt="Update Modpack Tutorial GIF" width="400"/>
    </a>
 
