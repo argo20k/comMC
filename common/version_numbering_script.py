@@ -2,17 +2,28 @@ import re
 import sys
 from pathlib import Path
 import difflib
+from datetime import datetime, timedelta
 
 def update_versions(old_version, new_version, file_paths):
+    try:
+        from zoneinfo import ZoneInfo
+        current_date = datetime.now(ZoneInfo("Australia/Sydney")).strftime("%d/%m/%Y")
+    except Exception:
+        # fallback if tzdata isn't available
+        current_date = (datetime.utcnow() + timedelta(hours=10)).strftime("%d/%m/%Y")
+
     # Patterns for GitHub release links and MOTD
     patterns = [
-        # GitHub release download URLs
+        # GitHub release download URLs (mod-specific)
         (rf"(https://github\.com/[^/]+/[^/]+/releases/download/){re.escape(old_version)}(/comMC-[^\"\)]+)", rf"\g<1>{new_version}\g<2>"),
 
-        # Prism/Modrinth/CurseForge simplified links
+        # Simplified links for other files
         (rf"(https://github\.com/[^/]+/[^/]+/releases/download/){re.escape(old_version)}(/[^\"\)]+)", rf"\g<1>{new_version}\g<2>"),
 
-        # MOTD lines in server.properties
+        # MOTD: full match with date (preferred — needs to come first)
+        (rf"(motd=.*?§bv){re.escape(old_version)}( §r\| .*?\\n§8Updated )\d{{4}}/\d{{2}}/\d{{2}}", rf"\g<1>{new_version}\g<2>{current_date}"),
+
+        # MOTD: version number only (backup — must come after)
         (rf"(motd=.*?§bv){re.escape(old_version)}(\b)", rf"\g<1>{new_version}\g<2>"),
     ]
 
