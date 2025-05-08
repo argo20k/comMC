@@ -1,1 +1,0 @@
-function blazeandcave:global_install
