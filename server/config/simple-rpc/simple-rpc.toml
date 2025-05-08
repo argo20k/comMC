@@ -314,7 +314,7 @@
 		#The name of your variable. Will be parsed into {{custom.variablename}}
 		name = "version"
 		#The value that this variable will output
-		value = "1.7.9"
+		value = "1.8.0"
 
 #Dimension Information Overrides
 [dimension_overrides]

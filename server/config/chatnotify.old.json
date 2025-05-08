@@ -54,10 +54,6 @@
       "titleMsgEnabled": false,
       "toastMsg": "",
       "toastMsgEnabled": false,
-      "typedMsg": "",
-      "typedMsgEnabled": false,
-      "clipboardMsg": "",
-      "clipboardMsgEnabled": false,
       "triggers": [
         {
           "version": 4,
