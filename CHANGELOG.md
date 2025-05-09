@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+- resource packs should now be added automatically
+
 ## 1.8.0
 
 - 🚀 New mods
