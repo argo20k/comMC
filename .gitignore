@@ -7,8 +7,6 @@ server/world/*
 !server/world/datapacks
 !server/world/level.dat
 !server/world/level.dat_old
-server-backup_01
-server-backup_02-1.7.9-forgot_to_add_datapacks
-server-backup_03-1.7.9-corrupted_level.dat_crash
-server-backup_04-disabled_spawn_chunks_with_gamerule_it_also_crashed_before_this_backup
+# ignore all backups starting with server-backup
+server-backup*
 server/cache/c2me-dfc
