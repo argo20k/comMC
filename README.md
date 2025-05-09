@@ -44,8 +44,8 @@
    - [Modrinth App](https://modrinth.com/app)
    - [CurseForge App](https://www.curseforge.com/download/app)
 2. Drag & drop modpack URL into Prism Launcher
-   - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack) ❤️
-   - [CurseForge version (.zip)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-curseforge.zip)
+   - [Prism Launcher / Modrinth version (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.8.0/comMC-modrinth.mrpack) ❤️
+   - [CurseForge version (.zip)](https://github.com/argo20k/comMC/releases/download/1.8.0/comMC-curseforge.zip)
 3. Launch the Game & Join the Server
 4. Go to `#general` in Discord & run `/verify <your-code>` to whitelist your account
    > 🎉 That’s it! You only need to do this set up once.
@@ -67,9 +67,9 @@
     <img src="common/assets/GitHub/update-modpack-tutorial_progress_bar.gif" alt="Update Modpack Tutorial GIF" width="400"/>
    </a>
 
-   - Download for <img src="common/assets/Discord/prismlauncher.webp" alt="Prism Launcher" width="20" style="vertical-align: middle"/> [**Prism Launcher ❤️**](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack)
-   - Download for <img src="common/assets/Discord/modrinth.webp" alt="Modrinth" width="20" style="vertical-align: middle"/> [Modrinth App (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-modrinth.mrpack)
-   - Download for <img src="common/assets/Discord/curseforge.webp" alt="CurseForge" width="20" style="vertical-align: middle"/> [CurseForge App (.zip)](https://github.com/argo20k/comMC/releases/download/1.7.9/comMC-curseforge.zip)
+   - Download for <img src="common/assets/Discord/prismlauncher.webp" alt="Prism Launcher" width="20" style="vertical-align: middle"/> [**Prism Launcher ❤️**](https://github.com/argo20k/comMC/releases/download/1.8.0/comMC-modrinth.mrpack)
+   - Download for <img src="common/assets/Discord/modrinth.webp" alt="Modrinth" width="20" style="vertical-align: middle"/> [Modrinth App (.mrpack)](https://github.com/argo20k/comMC/releases/download/1.8.0/comMC-modrinth.mrpack)
+   - Download for <img src="common/assets/Discord/curseforge.webp" alt="CurseForge" width="20" style="vertical-align: middle"/> [CurseForge App (.zip)](https://github.com/argo20k/comMC/releases/download/1.8.0/comMC-curseforge.zip)
 
 <!-- ROADMAP -->
 
