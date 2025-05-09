@@ -205,7 +205,7 @@
     - Corrected Item Holding
     - Hoe Fix
     </details>
-    </details>
+  </details>
 
 - Fixed [CHANGELOG](CHANGELOG.md) hyperlinks on Discord & GitHub
 - Renamed BACAP.datapack with comMC_settings
