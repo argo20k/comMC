@@ -75,7 +75,7 @@
 
 ## Roadmap
 
-- [x] Add [Changelog](./CHANGELOG.md)
+- [x] Add [Changelog](CHANGELOG.md)
 - [x] Add [Roadmap](#roadmap)
 - [ ] Add Member Requested Mods
 - [ ] Plan comMC Season 2
