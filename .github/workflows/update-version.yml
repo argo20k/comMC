@@ -33,6 +33,11 @@ jobs:
         run: |
           python common/version_numbering_script.py "$OLD_VERSION" "$RELEASE_TAG"
 
+      - name: Debug token use
+        run: |
+          echo "Repo: ${{ github.repository }}"
+          echo "Using PAT: ${{ secrets.PAT != '' }}"
+
       - name: Push version update changes
         run: |
           git config user.name "github-actions"
