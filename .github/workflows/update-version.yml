@@ -33,13 +33,13 @@ jobs:
         run: |
           python common/version_numbering_script.py "$OLD_VERSION" "$RELEASE_TAG"
 
-      - name: Commit updated versioned files
+      - name: Push version update changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add README.md server/server.properties
-          git commit -m "Update version references to $RELEASE_TAG"
-          git push origin HEAD:$GITHUB_REF_NAME
+          git commit -m "Update version references to $RELEASE_TAG" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git HEAD:$GITHUB_REF_NAME
 
       - name: Upload modpack files to release
         uses: softprops/action-gh-release@v1
