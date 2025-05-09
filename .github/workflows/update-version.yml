@@ -47,7 +47,7 @@ jobs:
           git config user.email "github-actions@github.com"
           git add README.md server/server.properties
           git commit -m "Update version references to $RELEASE_TAG" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git HEAD:$GITHUB_REF_NAME
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git HEAD:main
 
       - name: Upload modpack files to release
         uses: softprops/action-gh-release@v1
