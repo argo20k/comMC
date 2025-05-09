@@ -3,6 +3,8 @@ import sys
 from pathlib import Path
 import difflib
 from datetime import datetime, timedelta
+import os
+is_ci = os.getenv("GITHUB_ACTIONS") == "true"
 
 def update_versions(old_version, new_version, file_paths):
     try:
@@ -49,12 +51,16 @@ def update_versions(old_version, new_version, file_paths):
             )
             print("\n".join(diff))
 
-            confirm = input("Apply these changes? (y/n): ").strip().lower()
-            if confirm == 'y':
+            if is_ci:
                 file_path.write_text(updated, encoding="utf-8")
-                print("✅ Changes applied.")
+                print("✅ Changes applied (CI mode).")
             else:
-                print("❎ Changes discarded.")
+                confirm = input("Apply these changes? (y/n): ").strip().lower()
+                if confirm == 'y':
+                    file_path.write_text(updated, encoding="utf-8")
+                    print("✅ Changes applied.")
+                else:
+                    print("❎ Changes discarded.")
         else:
             print(f"✅ No changes needed in {file_path.relative_to(repo_root)}.")
 
