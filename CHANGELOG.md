@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+- resource packs should now be added automatically
+
 ## 1.8.0
 
 - 🚀 New mods
@@ -126,86 +130,91 @@
   - Lower and transparent fire
   - <details><summary>Vanilla Tweaks</summary>
 
-    - Desaturated Purpur
-    - Desaturated Dark Oak
-    - Brown Leather - Recolours leather realted items to use a similar palette to leather armour
-    - Red Iron Golem Flowers
-    - Rename 'Stem' to 'Log' - Renames "Crimson/Warped Stem/Hyphae" to "Crimson/Warped Log/Wood" - intuitive - WARNING no command support
-    - Colorful Enchanting Table Particles
-    - HD Shield Banner Patterns
-    - Splash Bottle o' Enchanting
-    - Accurate Spyglass
-    - Fencier Fences
-    - Smoother Warped Planks
-    - Horizontal World Border
-    - Plain Leather Armor - removes brown stripes & overlays
-    - Darker Dark Oak Leaves
-    - Lush Grass (Mostly) All 'Round!
-    - Circular Log Tops
-    - Smoother Oak Log
-    - Brighter Nether
+        - Desaturated Purpur
+        - Desaturated Dark Oak
+        - Brown Leather - Recolours leather realted items to use a similar palette to leather armour
+        - Red Iron Golem Flowers
+        - Rename 'Stem' to 'Log' - Renames "Crimson/Warped Stem/Hyphae" to "Crimson/Warped Log/Wood" - intuitive - WARNING no command support
+        - Colorful Enchanting Table Particles
+        - HD Shield Banner Patterns
+        - Splash Bottle o' Enchanting
+        - Accurate Spyglass
+        - Fencier Fences
+        - Smoother Warped Planks
+        - Horizontal World Border
+        - Plain Leather Armor - removes brown stripes & overlays
+        - Darker Dark Oak Leaves
+        - Lush Grass (Mostly) All 'Round!
+        - Circular Log Tops
+        - Smoother Oak Log
+        - Brighter Nether
 
-    - Unique Painting Items
-    - Unique Axolotol Buckets
-    - Visual Infested Stone (Items) - item texture only
-    - Visual Waxed Copper (Items) - item texture only
-    - Different Stems - differentiate melon & pumpkin
-    - Age 25 Kelp - flowers on fully grown kelp
-    - Music Disc Redstone Level Preview
-    - Sticky Piston Sides
-    - Directional Hoppers
-    - Directional Dispensers & Droppers
-    - Directional Observers
-    - Compass Lodestone
-    - In-Game Brewing Guide - brewing stand potion recipe GUI
-    - Visual Honey Stages
+        - Unique Painting Items
+        - Unique Axolotol Buckets
+        - Visual Infested Stone (Items) - item texture only
+        - Visual Waxed Copper (Items) - item texture only
+        - Different Stems - differentiate melon & pumpkin
+        - Age 25 Kelp - flowers on fully grown kelp
+        - Music Disc Redstone Level Preview
+        - Sticky Piston Sides
+        - Directional Hoppers
+        - Directional Dispensers & Droppers
+        - Directional Observers
+        - Compass Lodestone
+        - In-Game Brewing Guide - brewing stand potion recipe GUI
+        - Visual Honey Stages
 
-    - Unobtrusive Rain
-    - Unobtrusive Snow
-    - Unobtrusive Scaffolding
+        - Unobtrusive Rain
+        - Unobtrusive Snow
+        - Unobtrusive Scaffolding
 
-    - Ladders
-    - Rails
-    - Iron Bars
-    - Lily Pads
-    - Doors & Trapdoors
-    - Vines
-    - Glow Lichen
-    - Sculk Veins
-    - Stonecutters
+        - Ladders
+        - Rails
+        - Iron Bars
+        - Lily Pads
+        - Doors & Trapdoors
+        - Vines
+        - Glow Lichen
+        - Sculk Veins
+        - Stonecutters
 
-    - Spinning Skull on Fire Painting
+        - Spinning Skull on Fire Painting
 
-    - Bedrock Piston Arms
-    - Dungeons Mossy Skeleton
+        - Bedrock Piston Arms
+        - Dungeons Mossy Skeleton
 
-    - Updated Observer Texture
-    - Redstone Wire Fix
-    - Big Dripleaf Stem Fix
-    - Small Dripleaf Stem Fix
-    - Consistent Blank Decorated Pot
-    - Cactus Bottom Fix
-    - Brighter Rib Armor Fix
-    - Pixel Consistent Ghast
-    - Pixel Consistent Guardian
-    - Pixel Consistent Wither
-    - Pixel Consistent Tripwire
-    - Pixel Consistent Signs
-    - Pixel Consistent Experience Orbs
-    - Pixel Consistent Beacon Beam
-    - Pixel Consistent Sonic Boom
-    - Pixel Consistent Guardian Beam
-    - Soul Soil Soul Campfire
-    - Slime Particle Fix
-    - Nicer Fast Leaves
-    - Proper Break Particles
-    - Don't Eat the Bowl!
-    - Sandstone Wall Top Fix
-    - Double Slab Fix
-    - Corrected Item Holding
-    - Hoe Fix
+        - Updated Observer Texture
+        - Redstone Wire Fix
+        - Big Dripleaf Stem Fix
+        - Small Dripleaf Stem Fix
+        - Consistent Blank Decorated Pot
+        - Cactus Bottom Fix
+        - Brighter Rib Armor Fix
+        - Pixel Consistent Ghast
+        - Pixel Consistent Guardian
+        - Pixel Consistent Wither
+        - Pixel Consistent Tripwire
+        - Pixel Consistent Signs
+        - Pixel Consistent Experience Orbs
+        - Pixel Consistent Beacon Beam
+        - Pixel Consistent Sonic Boom
+        - Pixel Consistent Guardian Beam
+        - Soul Soil Soul Campfire
+        - Slime Particle Fix
+        - Nicer Fast Leaves
+        - Proper Break Particles
+        - Don't Eat the Bowl!
+        - Sandstone Wall Top Fix
+        - Double Slab Fix
+        - Corrected Item Holding
+        - Hoe Fix
+        </details>
+
+    <<<<<<< HEAD
     </details>
-    </details>
+    =======
+      </details>
+    >>>>>>> main
 
 - Fixed [CHANGELOG](CHANGELOG.md) hyperlinks on Discord & GitHub
 - Renamed BACAP.datapack with comMC_settings
