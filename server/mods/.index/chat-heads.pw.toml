@@ -1,0 +1,16 @@
+filename = 'chat_heads-0.13.17-neoforge-1.21.5.jar'
+name = 'Chat Heads'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e052ba1382185555562b574c16f0c07a53f241104f841015c06cab4b746c91b3a3186a6938d279726ed582c064f0e182658a12d81a59105b87e9e300f1b3aaf3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Wb5oqrBJ/versions/9JdZR76u/chat_heads-0.13.17-neoforge-1.21.5.jar'
+
+[update.modrinth]
+mod-id = 'Wb5oqrBJ'
+version = '9JdZR76u'
