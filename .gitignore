@@ -9,6 +9,7 @@ server/crash-reports
 server/libraries
 server/logs
 server/sdlinkstorage
+server/server.properties
 # dynamic world save data
 server/world/*
 !server/world/datapacks
