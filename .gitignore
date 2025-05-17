@@ -1,12 +1,16 @@
 ssh_key
 
-# static libraries
+# server stuff that doesn't need to be commited or merged to main
+server/cache
+server/config/spark/tmp
+server/config/spark/tmp-client
+server/configureddefaults
+server/crash-reports
 server/libraries
+server/logs
+server/sdlinkstorage
 # dynamic world save data
 server/world/*
 !server/world/datapacks
-!server/world/level.dat
-!server/world/level.dat_old
 # ignore all backups starting with server-backup
 server-backup*
-server/cache/c2me-dfc
