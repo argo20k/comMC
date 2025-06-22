@@ -1,5 +1,154 @@
 # Changelog
 
+## TODO
+
+- gameplay
+
+  - fix gold farm item sorter - [gnembom](https://youtu.be/DLe5-THpQ6I?t=1854)
+  - quartz sensei at school
+  - potion brewing at school science
+  - make overflow berries go to compost farm
+  - photo gallery
+  - slime farm
+  - make bow
+  - raid level 5
+  - trial chamber
+  - mansion
+  - autosorter at TTT
+
+- mods
+
+  - mod that adds back removed mobs from mob vote
+  - Screenshot Viewer - 1.21.4
+  - replay mod
+  - accidentally hit villagers
+  - better exp detection - pick up radius a little bigger for villager trading through stations & mob farm orbs getting stuck on trapdoor gaps and stuff
+  - enchant descriptions & unique books
+  - shared zombie discount
+  - more banner pattern
+  - cooler dog armour
+  - horse armour trims - more trims
+  - weapon and armour trims
+  - free your pets mod
+  - everyone can tame fox
+  - RPG style More Weapons!
+  - Trading Post
+  - Woodcutter (stonecutter but for wood)
+  - axe can have looting mod
+  - enderman grief stop
+  - netherite fishing rod
+  - spawner mod
+  - lootr
+    - explored buried treasure maps - shared map progress - lootr doesnt work with buried treasure since only one person should kind of be able to find it
+  - backpack
+  - smelt stones in blast furnace mod
+  - disable friendly fire pets
+  - horse in boat mod
+  - cobbled deepslate for redstone recipes
+  - pet your pets
+  - everyone gets zombified villager discount
+  - remove nether lava pockets
+  - instamine deepslate with eff 6 netheriye and haste 2 bescon
+  - collytra
+  - useful crafts - sticks and chests straight from logs
+  - obsidian mining faster
+  - 1.20.1 - Bigger Stacks - hold more than 64 - osabe
+  - 1.21.1 - Butchery - osabe
+  - 1.21.1 - Better Combat - osabe
+  - 1.21.4 - Basic Weapons - osabe
+  - 1.21.1 - Simply Swords - osabe
+  - 1.21.1 - Fishing Real - reel live mobs when fishing - osabe
+  - yakutbutsu - dan
+  - boat jump - dan
+  - get your own mob spawners - nish
+  - cool biomes only - choose your biomes
+  - new server players spawn near other players
+  - What Are They Up To (Watut)
+  - items don't explode everywhere on death
+  - more projectiles mod - load other items into bows & projectiles
+  - assorted armour trim sets - aromur sets - give bonuses
+  - choice to respawn close by, or at home - more balanced then graves, or waypoints that show where you died - but items still drop on the ground - 5 second respawn cool down so you can see the new option - https://modrinth.com/mod/better-respawn
+  - [R.E.P.O.'s Talking Heads in Minecraft](https://youtu.be/dPgs6BbK4_Q)
+  - good way to mention nerfs on certain items / mechanics? - tooltips on items - advancements on item pick up - display opinionated nerfs
+
+- events
+
+  - backrooms found footage space potato
+  - mekanism - anzai
+  - applied energistics - anzai
+  - natural disaster - rui
+  - tnt variations - rui
+  - Apotheosis - tobi
+  - Skyblock x Pokemon - https://youtu.be/r-ZaGJwCpKI
+  - RLCraft x Skyblock
+  - [item of the day challenge](https://youtu.be/EtwMsgT5NUQ) - obtain an item chosen randomly to win a prize
+
+- chat images discord link
+- who's contributed to most advancement - interesting stat
+
+- clean up oracle server files - zomboid + boot volume names + storage
+- rpc link to YT video
+- default datapacks - paxi - outdated
+- dh pregen
+- added version info to main menu
+- "don't record me role" - can't join #"🔴│recording" - <id:customize> - #role-info
+- nice 1.21.5 seed `-8546090065308567931`
+
+- afk/unafk hotkey - `/trigger afk` - mute sounds
+
+## 1.8.2
+
+-
+
+*
+
+- https://www.ddinstagram.com/reel/DKAywc1CLXT/
+- https://modrinth.com/resourcepack/fresh-animations - default off - tarou
+- [AdvancementInfo Reloaded](https://modrinth.com/mod/advancements-reloaded)
+- remove serverseeker scraping - https://github.com/Funtimes909/ServerSeekerV2?tab=readme-ov-file#for-people-just-looking-to-not-be-scanned-anymore
+- pregen with distant horizons - reset c2me files - and any other world gen mods
+  - set DH.mod to 3 threads while pregenning - 2 when normally playing
+  - disabled DH.mod.server when playing for now - TPS drops like crazy
+- look into bobby.mod - more view distance - DH.mod can stay mostly the same for LODs, bobby.mod for the actual render distance
+- fixed entity render distance, like seeing players and mobs from further
+- Removed waystone recipe - https://youtu.be/gfl0zkXty3A
+- tab tps fixed
+- changed version for discord rpc
+- sleep datapack - always says tarou is sleeping
+- fusion - Pieced Layout Connected Glass & Grass Block Overflow
+- waypoints disappeared? just do this
+- glitch core error? do this
+- disable handful
+- import your own music mod
+- resourceify - resource pack management mod
+- improve connection for overseas players
+- 3d mace
+- enchant descriptions
+- hand over items.mod disable
+- world map to see explored chunks and stuff
+- make Minecraft chat accessible in Discord
+- bee tool tip is overlapping with another mod
+- axolotyl tooltip broken
+- GraveStone Mod - gravestone to recover items after death - obituary showing death information & location - to 1.8.0 changelog discord #news
+
+*
+
+- added Discord `#faq` to re-enable coordinates - opt out of ping wheel
+- added mods to CHANGELOG instead of mod_notes.md
+- update mods / oracle server ubuntu
+
+- dynmapams and live server map
+- tell everyone about city 2 - and that a waystone will be added for teleporting, along with one to the end
+
+* set up watch party in game for new video
+* update #faq
+  - add simpler channel hiding with <id:customize>
+  - add "hide most channels" button in onboarding questions
+  - add getting spammed by advancements, just relog
+* changed update instructions & GIF to use Discord server drag & drop message
+* general rule - everything goes - but choose if you don't want to use stuff like iron farms or EXP farms
+* <https://modrinth.com/datapack/ly-clumps> - <https://i.imgur.com/2Jcrtgo.png>
+
 ## 1.8.1
 
 - resource packs should now be added automatically
@@ -27,7 +176,7 @@
   - <details><summary>Easy Anvils</summary>
 
     - removed too expensive limit
-    - `SHIFT RMB` + name tag GUI
+    - `CROUCH + RMB` + name tag GUI
     - colours & text formatting in anvils & name tag GUI - style items & entity names
     - rename, repair, & enchant work changes - linear cost
     - free renames & doesn't damage anvil
@@ -155,11 +304,6 @@
         - Visual Waxed Copper (Items) - item texture only
         - Different Stems - differentiate melon & pumpkin
         - Age 25 Kelp - flowers on fully grown kelp
-        - Music Disc Redstone Level Preview
-        - Sticky Piston Sides
-        - Directional Hoppers
-        - Directional Dispensers & Droppers
-        - Directional Observers
         - Compass Lodestone
         - In-Game Brewing Guide - brewing stand potion recipe GUI
         - Visual Honey Stages
@@ -210,11 +354,7 @@
         - Hoe Fix
         </details>
 
-    <<<<<<< HEAD
-    </details>
-    =======
       </details>
-    >>>>>>> main
 
 - Fixed [CHANGELOG](CHANGELOG.md) hyperlinks on Discord & GitHub
 - Renamed BACAP.datapack with comMC_settings
