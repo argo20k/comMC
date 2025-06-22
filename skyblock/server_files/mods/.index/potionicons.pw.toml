@@ -1,0 +1,16 @@
+filename = 'potionicons-neoforge-1.21.1-1.1.0.jar'
+name = 'Potion Icons'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3c750b6f5e86ec2dd7766f33aabd9116b5615e269773d18e63aafc0b8f53e06573cf2f8837c1cecc3505b97fe7fde751fdf84fa5b1a2fd0783355c5008dfd939'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s1Aa0h8K/versions/O5I6RvAs/potionicons-neoforge-1.21.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 's1Aa0h8K'
+version = 'O5I6RvAs'

@@ -1,0 +1,16 @@
+filename = 'EasyShulkerBoxes-v21.1.2-1.21.1-NeoForge.jar'
+name = 'Easy Shulker Boxes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3f2cf42401917b66d6cc473fe39bee60ad063d8e14622e5e8a2e0e96fb54729619f736cbff65fd0ac4732fffc089e5ba29f0d4792c94d949d8e702fcfbd57bf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gA5euN8S/versions/9sGdoGO9/EasyShulkerBoxes-v21.1.2-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'gA5euN8S'
+version = '9sGdoGO9'

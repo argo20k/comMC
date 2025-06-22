@@ -1,0 +1,16 @@
+filename = 'condensed_creative-3.4.1+1.21-neoforge.jar'
+name = 'Condensed Creative'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '784d805f2b0f4daa8b259a8545a3c91a201b41543f4590f25363e45b4f71012ad4f3dba78a930dc656a5ba0dda1a5bd0f892a2510af59deae3920b4872785e98'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Zw7fMbBg/versions/Z0cbwZrI/condensed_creative-3.4.1%2B1.21-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'Zw7fMbBg'
+version = 'Z0cbwZrI'

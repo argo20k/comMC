@@ -1,0 +1,16 @@
+filename = 'colorize-1.21.1-neoforge-1.11.0.jar'
+name = 'Colorize'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '16b0ac38557e02df778dcc525e2cf4b60a5f17284e9342606e7b8afd8153930043f745224fcab67142cfdc7283770acbd7bd1f514b1f255f2bd09ede24c6442a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4sQDl6he/versions/CYZG1vGA/colorize-1.21.1-neoforge-1.11.0.jar'
+
+[update.modrinth]
+mod-id = '4sQDl6he'
+version = 'CYZG1vGA'

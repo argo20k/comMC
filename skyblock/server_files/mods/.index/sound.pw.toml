@@ -1,0 +1,16 @@
+filename = 'sounds-2.4.11+1.21.1+neoforge.jar'
+name = 'Sounds'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6d74034c8bbaa92b468c66e7739b81fcec654fcb839b02410849bb45e5f0ec61e6ffc17dfd873dc14affc431b3e45cb168ea2d6c374d6322ed7711718e588bdf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZouiUX7t/versions/dbIWcJvs/sounds-2.4.11%2B1.21.1%2Bneoforge.jar'
+
+[update.modrinth]
+mod-id = 'ZouiUX7t'
+version = 'dbIWcJvs'

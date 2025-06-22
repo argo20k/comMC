@@ -1,0 +1,71 @@
+#Adds badge to mod in this format "modid=badge1, badge2"
+mod_badges = ["helditemtooltips=client", "almanac=library", "supermartijn642configlib=library", "respackopts=client", "sound_physics_remastered=client", "resourcepackoverrides=client", "clean_tooltips=client", "prickle=client, library", "chat_heads=client", "cloth_config=library", "durabilitytooltip=client", "mafglib=library", "supermartijn642corelib=library", "reeses_sodium_options=client", "curios=library", "searchables=library", "kiwi=library", "stylisheffects=client", "caelus=library", "libjf=library", "potionicons=client", "toadlib=library", "deleteworldstotrash=client", "admiral=library", "fusion=client", "longerchathistory=client", "jamlib=library", "kotlinforforge=library", "leavemybarsalone=client", "citresewn_neopatcher=client", "entityculling=client", "immediatelyfast=client", "mr_toad_palladium=client", "elytra_physics=client", "bookshelf=client, library", "cc_layer_mod_id=library", "sodiumoptionsapi=client", "fzzy_config=library", "advancements_reloaded=client", "sodiumdynamiclights=client", "entity_model_features=client", "entity_texture_features=client", "fastipping=client", "boatiview=client", "modelfix=client", "collective=library", "replaymod=client", "eatinganimation=client", "architectury=library", "cherishedworlds=client", "mru=library", "owo=library", "particular=client", "resourcify=client", "txnilib=library", "skinlayers3d=client", "immersivearmorhud=client", "gpu_tape=client", "enchdesc=client", "enchlevellangpatch=client", "creativecore=library", "whats_that_slot=client", "sounds=client", "one_click_join=client", "yet_another_config_lib_v3=library", "betterf3=client"]
+#Make mods apear under another mod in this format "parenModId=childId1, childId2"
+mod_parents = []
+
+[main]
+	#Allowed Values: ASCENDING, DESCENDING
+	sorting = "ASCENDING"
+	#Makes list more compacted
+	compact_list = true
+	#Allowed Values: CLASSIC, REPLACE_REALMS, SHRINK, ICON
+	mods_button_style = "REPLACE_REALMS"
+	#Allowed Values: REPLACE, INSERT, ICON
+	game_menu_button_style = "REPLACE"
+	#Allowed Values: TITLE_SCREEN, MODS_BUTTON, TITLE_SCREEN_AND_MODS_BUTTON, NONE
+	mod_count_location = "TITLE_SCREEN"
+	#Shows secret mod count translations defined by modmenu.mods.MOD_COUND.secret
+	easter_eggs = true
+	#Makes java mod have random colors
+	random_java_colors = false
+	#Make mod names translatable defining by modmenu.nameTranslation.modid
+	translate_names = true
+	#Make mod descriptions translatable defining by modmenu.descriptionTranslation.modid
+	translate_descriptions = true
+	#Shows config button above mod icon on the left
+	quick_configure = true
+	#Modifies title screen, if false will be neoforge default with default mods button
+	modify_title_screen = true
+	#Changes pause screen's button position and replaces neoforge's mods button with better modlist's one
+	modify_game_menu = true
+	#Will only show mods with config available
+	config_mode = false
+	#Disables drag and drop mods adding
+	disable_drag_and_drop = false
+
+[hide]
+	#Shows mods with library badge
+	show_libraries = false
+	#Hides links of the mod
+	hide_mod_links = false
+	#Hides mod's license
+	hide_mod_license = true
+	#Hides mod's badges
+	hide_badges = false
+	#Add id of the badge to hide it
+	hide_badge = []
+	#Hides mod's credits
+	hide_mod_credits = false
+	#Hides mod's config button
+	hide_config_buttons = false
+	#hides button which allows changing mod's badge
+	hide_badge_buttons = false
+	#Add modid of the mod to hide it from the modlist
+	hidden_mods = ["minecraft", "neoforge", "aiimprovements", "alternate_current", "c2me", "entityculling", "fastipping", "ferritecore", "resourcepackoverrides", "spark", "tabtps", "letmedespawn", "immediatelyfast", "ksyxis", "lithium", "noisium", "mr_toad_palladium", "gpu_tape", "rrls", "servercore", "betteraddserver", "boatiview", "cherishedworlds", "controlling", "deleteworldstotrash", "distanthorizons", "deathbackup", "enchlevellangpatch", "helditemtooltips", "one_click_join", "screenshotclipboard", "searchstats", "whats_that_slot", "advancements_reloaded", "appleskin", "fusion", "iris", "modelfix", "craterlib", "coroutil", "puzzleslib", "modlistmemory", "chat_heads", "longerchathistory", "nochatreports", "stylisheffects", "multimine", "trade_cycling", "reforgedplaymod", "enhancedgroups", "simple_snowy_fix", "wanderingpets", "server_plus_plus", "silicone_dolls", "snowundertrees", "survival_plus_plus", "whereisit", "bettertab", "rolling_gate", "scalablelux", "skinrestorer", "minecraftcapes", "raised", "skinshuffle", "clean_tooltips", "enchdesc", "eatinganimation", "citresewn", "citresewn_neopatcher", "entity_model_features", "entity_texture_features", "continuity", "respackopts", "reeses_sodium_options", "sodiumdynamiclights", "sodiumoptionsapi", "leavemybarsalone", "immersivearmorhud", "elytra_physics"]
+	#Add modid of the mod to hide its config
+	hidden_configs = []
+	#deprecated
+	library_list = []
+
+	#deprecated
+	[hide.disable_default_badges_section]
+		disable_default_badges_all = false
+		disable_default_badges = []
+
+[count]
+	#Makes hidden mods count added to the total mods count
+	count_hidden_mods = true
+	#Makes childrens count get added to the total mods count
+	count_children = true
+	#Makes libraries count get added to the total mods count
+	count_libraries = false

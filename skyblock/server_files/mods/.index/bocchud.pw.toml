@@ -1,0 +1,16 @@
+filename = 'BoccHUD-0.3.1-mc1.21.1.jar'
+name = 'BoccHUD'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '804b18b3add7bb1eef85bd988beecce0405774e71f6594d6312094079b2ecedf14756a816914583670d252de3a1bde5bca9ac2fa530bb0fb96362d7e4891b245'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zfPoD7Tm/versions/DunnJcDQ/BoccHUD-0.3.1-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'zfPoD7Tm'
+version = 'DunnJcDQ'

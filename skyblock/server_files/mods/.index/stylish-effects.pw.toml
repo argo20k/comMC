@@ -1,0 +1,16 @@
+filename = 'StylishEffects-v21.1.1-1.21.1-NeoForge.jar'
+name = 'Stylish Effects'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd6e7f5104e9635d42ba759ddccb9544d3897be0ddb9354990d0697950dd42cb4dbeb57dcef5c452b6decd977f0a91365d3cf1590d18fefc0cb0092e05b5d6662'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/onDuQF5e/versions/35SKbZ6h/StylishEffects-v21.1.1-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'onDuQF5e'
+version = '35SKbZ6h'

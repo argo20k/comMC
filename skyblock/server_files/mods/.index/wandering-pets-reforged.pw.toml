@@ -1,0 +1,16 @@
+filename = 'wanderingpets-v1.0.0-1.21.1.jar'
+name = 'Wandering Pets (Reforged)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ba3d08c20df2a98653e0812b5f6630e27aa22bdd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6446306
+project-id = 1248008

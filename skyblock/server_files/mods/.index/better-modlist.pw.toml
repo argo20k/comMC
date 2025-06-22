@@ -1,0 +1,16 @@
+filename = 'better_modlist-1.1.18.jar'
+name = 'Better ModList'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1a42e9f09727ed565e41892165a5015bcd101191ab4133e35ed1e321fa9ba604a99994a93dea6dc5455c949ad4cff039045931a713caa8c6bb95f021fde806c7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sbpqhzIG/versions/brgIaAS3/better_modlist-1.1.18.jar'
+
+[update.modrinth]
+mod-id = 'sbpqhzIG'
+version = 'brgIaAS3'

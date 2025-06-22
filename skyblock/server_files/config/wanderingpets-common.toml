@@ -1,0 +1,19 @@
+[wanderingpets]
+	# Enable toggle wander behavior for cats
+	enableBehaviorCats = true
+	# Enable toggle wander behavior for wolves
+	enableBehaviorWolves = true
+	# Enable toggle wander behavior for parrots
+	enableBehaviorParrots = true
+	# Enhance cats' wander behavior, making them alternate between sitting, sleeping and wandering from time to time
+	betterCatBehavior = true
+	# Lower values makes cats sleep and sit more, higher values makes them wander more. Only applies if betterCatBehavior is enabled.
+	# Default: 1600
+	# Range: 200 ~ 8000
+	catsRelaxingCooldown = 1600
+	# Enable mod behavior for possibly compatible modded entities
+	enableModdedEntities = true
+	# List of modded mobs that should use mod behavior. If left empty, will search for possibly compatible entities. Format: modid:entity_id
+	moddedEntities = []
+	# Should log stuff
+	debugMode = false

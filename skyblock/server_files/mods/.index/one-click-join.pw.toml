@@ -1,0 +1,16 @@
+filename = 'one-click-join-1.21.1-neoforge-1.0.1.jar'
+name = 'One Click Join'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '968bff8404e89b70fd1fe63bd8eb855eef3dc950baecee382c66dd833363393273f7511746fff8d2689052b77c0e5211cc08cd84a670ea5b7fcb60ee22af112d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gmVdcG6g/versions/2yRtfZ3w/one-click-join-1.21.1-neoforge-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'gmVdcG6g'
+version = '2yRtfZ3w'

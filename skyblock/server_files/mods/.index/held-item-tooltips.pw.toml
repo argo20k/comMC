@@ -1,0 +1,16 @@
+filename = 'HeldItemTooltips-v21.1.0-1.21.1-NeoForge.jar'
+name = 'Held Item Tooltips'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e861bf33f854d97d69cc979b16b3a2c2ff8b7b6942add6883f94b4c0112ee325df5f3a7f78e98eebd5dc801131b0d660b4f103c6f156cd72896727e35d145dde'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3wWtgZGB/versions/GLzG8UbN/HeldItemTooltips-v21.1.0-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = '3wWtgZGB'
+version = 'GLzG8UbN'

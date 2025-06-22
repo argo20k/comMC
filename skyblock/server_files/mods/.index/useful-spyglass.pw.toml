@@ -1,0 +1,16 @@
+filename = 'usefulspyglass-neoforge-1.21.1-0.8.0.jar'
+name = 'Useful Spyglass'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '4fdca6361af2079bc78823a99e93189e91a30e3d6f28fb6ae696cbb96e297b0a141fbb67ca2277f6b675a156f8b1bf06bbf6a9d2ed8a908d0243a36f41e6b67a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XwvK7Tzg/versions/qPGq66Ef/usefulspyglass-neoforge-1.21.1-0.8.0.jar'
+
+[update.modrinth]
+mod-id = 'XwvK7Tzg'
+version = 'qPGq66Ef'

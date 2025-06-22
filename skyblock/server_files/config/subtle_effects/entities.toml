@@ -1,0 +1,106 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enderPearlTrail = true
+snowballTrailDensity = 0.5
+allayMagicDensity = 0.2
+vexMagicDensity = 0.2
+sheepShearFluff = true
+improvedDragonFireballTrail = true
+commandBlockMinecartParticles = "NOT_CREATIVE"
+endCrystalParticles = true
+minecartSparksDisplayType = "LAND_ON_RAIL"
+minecartSparksDensity = 0.5
+slimeTrails = false
+magmaCubeTrails = false
+replaceSlimeSquishParticles = true
+replaceOozingEffectParticles = true
+replaceSpellCasterParticles = true
+ironGolemCrackParticles = true
+spectralArrowParticles = true
+wardenDeathSoulParticles = true
+xpBottleParticlesDisplayType = "DEFAULT"
+xpBottleParticlesDensity = 10
+eggSmashSoundVolume = 0.5
+eggSplatParticles = true
+freezingSnowFlakes = true
+
+[attacked]
+chickenFeathers = false
+parrotFeathers = true
+snowGolemSnowflakes = true
+
+[sleeping]
+playerSnoreChance = 1.0
+playerSnoreSoundVolume = 0.0
+playersHaveSleepingZs = true
+villagerSnoreChance = 1.0
+villagerSnoreSoundVolume = 0.0
+villagersHaveSleepingZs = true
+foxesHaveSleepingZs = true
+batsHaveSleepingZs = true
+catsHaveSleepingZs = true
+otherMobsHaveSleepingZs = true
+displaySleepingZsOnlyWhenSnoring = false
+adjustNameTagWhenSleeping = true
+
+[humanoids]
+drowningBubblesDisplayType = "DEFAULT"
+drowningBubblesDensity = 3
+drowningBubbleAlpha = 1.0
+forceDrowningBubblesToColumn = false
+potionRingsDisplayType = "DEFAULT"
+potionRingsParticleType = "BOTH"
+NPCsHavePotionRings = true
+
+[humanoids.frostyBreath]
+displayType = "DEFAULT"
+alpha = 0.5
+waitTime = 60
+seasons = "DEFAULT"
+additionalBiomes = [  ]
+
+[humanoids.player]
+enableBreathingEffectsInCreative = true
+stomachGrowlingThreshold = 0
+stomachGrowlingVolume = 1.0
+stomachGrowlingWaitTime = 15
+heartBeatingThreshold = 0
+heartbeatVolume = 1.0
+heartBeatingWaitTime = 3
+
+[dustClouds]
+scale = 2.0
+alpha = 1.0
+preventWhenRaining = false
+flyIntoWall = false
+lessViewBlocking = false
+playerFell = false
+mobFell = false
+landMaceAttack = true
+playerRunning = false
+mobRunning = false
+playerRunningRequiresSpeed = false
+
+[burning]
+smoke = "DEFAULT"
+flames = false
+sparks = true
+sounds = true
+extinguishSteam = true
+
+[itemRarity]
+particlesDisplayType = "OFF"
+particleColorType = "NAME_COLOR"
+mixedColorName = true
+useItemBorder = true
+colorOverrides = [  ]
+particleMaxHeight = 1.0
+particleMaxSpeed = 1.0
+particleDensity = 1.0
+
+[explosives]
+tntUpdateSmoke = true
+tntFlamesDensity = 8
+tntSparks = true
+creeperSmoke = "UPDATED"
+creeperSparks = true

@@ -1,0 +1,16 @@
+filename = 'survival_plus_plus-neoforge-1.21.1-0.0.1+build.17.jar'
+name = 'SurvivalPlusPlus'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '241a8e17b6fcd55d87f639db4181d21810e0445a673d14ce03e25076cedd9cdd13844113ec36e07a3055d1e8fc483af18ff097ffe47f89b871a83b659c9e317f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yzd226Bp/versions/eA98eWwM/survival_plus_plus-neoforge-1.21.1-0.0.1%2Bbuild.17.jar'
+
+[update.modrinth]
+mod-id = 'Yzd226Bp'
+version = 'eA98eWwM'

@@ -1,0 +1,31 @@
+filename = 'almanac-1.21.x-neoforge-1.0.2.jar'
+name = 'Almanac'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.1-rc1',
+    '1.21.2',
+    '1.21.2-pre1',
+    '1.21.3',
+    '24w33a',
+    '24w34a',
+    '24w35a',
+    '24w36a',
+    '24w37a',
+    '24w38a',
+    '24w39a',
+    '24w40a'
+]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '78b59cb732cfc13bae2e7b19cff44adee1eebd68c0546f77318d67f90fa77b753787a92957fe30851e7cc79377f1d9d79ebbfa1b49d967d4577b5a6aa9792c85'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Gi02250Z/versions/1FKrJXAN/almanac-1.21.x-neoforge-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'Gi02250Z'
+version = '1FKrJXAN'

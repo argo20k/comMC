@@ -1,0 +1,7 @@
+normalMode = "TOP_LEFT"
+shiftMode = "FULL"
+normalFront = true
+shiftFront = true
+cycleSpeedNormal = 0.0
+cycleSpeedShift = 1.0
+showInTooltip = true

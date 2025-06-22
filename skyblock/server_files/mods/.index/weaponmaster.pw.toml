@@ -1,0 +1,16 @@
+filename = 'weaponmaster_ydm-1.21.1-neoforge-4.2.7.jar'
+name = "YDM's Weapon Master"
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aaa000077d162cd00e4fbc78b5b165cd61b41756d9c7e28b7f88342482c6dbfa5bca138bbb821a02af4ed32315f8e0423ccabaf2fd24cb0c8d8bbda77348ebdf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qi1sj2da/versions/j4CtkXVs/weaponmaster_ydm-1.21.1-neoforge-4.2.7.jar'
+
+[update.modrinth]
+mod-id = 'qi1sj2da'
+version = 'j4CtkXVs'

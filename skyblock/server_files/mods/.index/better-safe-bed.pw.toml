@@ -1,0 +1,16 @@
+filename = 'bettersafebed-neoforge-1.21-16.jar'
+name = 'Better Safe Bed'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd2dede84bbf261851fdc7c35f65ecea45abef587ec0aeac2c5b1917e07dbff4cc0951dc66b8e5ce83ef7dc26f213857100a603b93f0107be30e1f0f3112b1682'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aUp4r9hY/versions/Gnq7RyxX/bettersafebed-neoforge-1.21-16.jar'
+
+[update.modrinth]
+mod-id = 'aUp4r9hY'
+version = 'Gnq7RyxX'

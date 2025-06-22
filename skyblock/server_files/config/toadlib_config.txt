@@ -1,0 +1,2 @@
+showCfgButton:false
+tooltipLineLength:280

@@ -1,0 +1,16 @@
+filename = 'SiliconeDolls-neoforge-1.21.1-1.0.0+build.49.jar'
+name = 'SiliconeDolls'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '0c32aa31874162ea8f88515bd6a06a6e6a690d3bf1d1f4f2131214e35d188081a25defc5e8d08ad3adb4f5f83a91430d5c7696e73785eabd820261da27b8d43f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7rBlSqmp/versions/RVgca7dO/SiliconeDolls-neoforge-1.21.1-1.0.0%2Bbuild.49.jar'
+
+[update.modrinth]
+mod-id = '7rBlSqmp'
+version = 'RVgca7dO'

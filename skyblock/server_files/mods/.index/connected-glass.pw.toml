@@ -1,0 +1,16 @@
+filename = 'connectedglass-1.1.13-neoforge-mc1.21.jar'
+name = 'Connected Glass'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '562c6d505d745120947c59c71c615095ccf789e394032eeb5445a177283a3f994da5ed31f807db15b2ca5a8c4798365c203b8572550ae62aafb00ff119aa121a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DghO0R02/versions/vUhI3g5s/connectedglass-1.1.13-neoforge-mc1.21.jar'
+
+[update.modrinth]
+mod-id = 'DghO0R02'
+version = 'vUhI3g5s'

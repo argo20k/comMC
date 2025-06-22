@@ -1,0 +1,16 @@
+filename = 'chatnotify-neoforge-2.4.6+1.21.jar'
+name = 'Chat Notify'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2f7f240c957bd1014dc8e1dba0198b5dfd4a5f5fa68d161ef7fa9023f01f81d6741fff4e6571058cf4ba68bd51eda7f4a336f0c8b56d4d4fc506e73d5c93ce7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Iudurxl8/versions/9JaUMYxU/chatnotify-neoforge-2.4.6%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'Iudurxl8'
+version = '9JaUMYxU'

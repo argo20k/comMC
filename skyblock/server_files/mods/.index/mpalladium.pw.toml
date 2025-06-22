@@ -1,0 +1,16 @@
+filename = 'Palladium-1.1.7-1.21-1.21.1.jar'
+name = 'Palladium'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '42d8e1ba0946ea0bb67c7e6d253a54c7fb3c7b72c239aa4131610cca7309cd0606766f7d490923bbb572be8fa1c79db06ba5d3d1d29262bf3e72ccde5a1102e5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JNRr4jji/versions/8v56tOd6/Palladium-1.1.7-1.21-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'JNRr4jji'
+version = '8v56tOd6'

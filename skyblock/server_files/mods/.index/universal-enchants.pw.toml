@@ -1,0 +1,16 @@
+filename = 'UniversalEnchants-v21.1.5-1.21.1-NeoForge.jar'
+name = 'Universal Enchants'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c66db737acc959adc0429f33fbdf8b0be72191cb4a2b8fda43b53edccdd67d879c459affae123e3ae613be2eedbf48b1d00955dd04a0f53d327d3d9e0ec8305e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DT56YDir/versions/58sx3nKX/UniversalEnchants-v21.1.5-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'DT56YDir'
+version = '58sx3nKX'

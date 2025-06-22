@@ -1,0 +1,16 @@
+filename = 'particular-1.21.1-NeoForge-1.1.4.jar'
+name = 'Particular ✨ Reforged'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f1884d87701d13ecd5461f8d9f58619e158d10f4970a93896f1607f1ba6b00584e933d2c1924e35dcf1953c79cb773d8a544dfed620e619acf69684c536d748d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pYFUU6cq/versions/ktirmLyw/particular-1.21.1-NeoForge-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'pYFUU6cq'
+version = 'ktirmLyw'

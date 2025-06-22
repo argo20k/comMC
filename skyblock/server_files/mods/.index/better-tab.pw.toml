@@ -1,0 +1,16 @@
+filename = 'BetterTab-neoforge-1.21.1-1.0.0+build.11.jar'
+name = 'BetterTab'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'a008268b3f116e8901a730072fb48eda6706c24441c679b479c397524e864fcaaf6e1ed622c64442e29d0407bd0e563a12713692e82ce4a3065895cd621ecbac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/woulhAPh/versions/VVw4TROM/BetterTab-neoforge-1.21.1-1.0.0%2Bbuild.11.jar'
+
+[update.modrinth]
+mod-id = 'woulhAPh'
+version = 'VVw4TROM'
