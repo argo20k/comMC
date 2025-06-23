@@ -20,6 +20,8 @@
 - performance modpack mods for inspo
   - simply optimised
   - adrenaline
+- link comMC server whitelists with the Simple Discord Link bots. so you only need to verify once
+- make icon art for comMC skyblock
 - e4mc local world hosting mod but make sure its safe against griefer groups
 - event ideas
   - Apotheosis
@@ -186,7 +188,7 @@
   - ServuxForged - install server side
 - Server Set Up
 
-  - add all datapacks
+  - add all datapacks from modded like sitting & stuff
   - [remove server seeker scraping](https://github.com/Funtimes909/ServerSeekerV2?tab=readme-ov-file#for-people-just-looking-to-not-be-scanned-anymore)
   - don't enforce chat signing with `enforce-secure-profile` in `server.properties`
   - <details><summary>pregenerate chunks with Distant Horizons</summary>
@@ -437,6 +439,7 @@
 - Additional Content
 
   - AmbientSounds - ambient sounds in the Minecraft world with mod support
+  - Controlify - controller support
   - <details><summary>Particular Reforged</summary>
 
     - 3D water splashes when breaking the surface of water
@@ -728,6 +731,7 @@
   - GroovyModLoader - Groovy programming language support - Eating_Animation.mod
   - JamLib - JamCoreModding's mods - RightClickHarvest.mod
   - Kotlin for Forge - Kotlin language loader - Resourcify.mod
+  - Kiwi - Snownee's mods - Snow!\_Real_Magic!.mod
   - LibJF - JFronny's mods - Respackopts.mod
   - MaFgLib - forge port of MaLiLib - masa's mods - BoccHUD.mod
   - MRU - IMB11's mods - Sounds.mod
