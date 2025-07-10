@@ -10,13 +10,14 @@
   - added Discord `#faq` to re-enable coordinates - opt out of ping wheel
   - waypoints disappeared? just do this
   - glitch core error? do this
-- banner equip as cape with accessories compat & overrides minecraftcapes.mod
 - connect directly to the server via QuickPlay
   - `Select Instance>Edit>Settings>Miscellaneous>Set server to join on launch`
 - Server Side:
   Can't find your horse? Get Horse Trumpet (highlights your horse) or Horse Whistle (horse runs/tps to you)
   Stop banging your head into stuff and taking damage VehicleFix Ride through forests with ease
-  Horse stat overhaul (horses get better the more you use them) Superb Steeds
+  mounts can ride over powdered snow
+- Accessories.mod might have a config to enable elytra slot, replacing the Elytra_Slot.mod
+- Accessorify
 - performance modpack mods for inspo
   - simply optimised
   - adrenaline
@@ -168,11 +169,25 @@
 ## 2.2.0
 
 - check all mod WARNINGs & see if they are fixable with fix.fork
+  - Enchantment Descriptions - Useful_Spyglass.mod support fix.fork
+  - Accessories - default layout fix.fork - should have been like 3 columns or something
+  - Clean Tooltips - Clean_Tooltips_Patch.fork to format & order enchants, with in-built Visual_Enchantments.rp enchant icons - WARNING no Useful_Spyglass.mod support
+  - EnhancedTooltips - opinionated.fork
+  - Universal Enchants - thorns not working on horse armour/shoes
+  - Easy Shulker Boxes - removed unexpected map tooltip feature
+  - Horseshoes - enchantable in enchant table (not only anvils & commands) - thorns not working on horse armour/shoes
+  - Immersive Armor HUD - no Accessories.mod support
+  - Inline - player heads don't send properly in chat
+  - Logical Efficient Tools - mining speed not supported for Connected_Glass.mod glass
+  - Skin Shuffle - no cape management support
+  - PlayerRevive - revive text is bugged
+  - Spyglass Improvements - WARNING hiding zoom overlay, removes spyglass overlay
 - Check mods from [2.1.0](#210)
   - Cherished Worlds - set comMC-SkyBlock server as favourites
   - One Click Join - set up comMC-SkyBlock as the quick join server
   - Accessories - default_layout.fork
   - (Better) Shared Advancements - make sure advancements are syncing new/offline players
+  - Universal Enchants - update info to match opinionated settings
   - Simple Voice Chat - [server side set up](https://modrepo.de/minecraft/voicechat/wiki/server_setup)
     - Open the voice chat port (24454 UDP by default) In your servers firewall
   - Simple Voice Chat Enhanced Groups - verify if `/instantgroup`, `/persistentgroup`, etc. work
@@ -181,7 +196,7 @@
   - Visuality Reforged - check if armour sparkle works in multiplayer
   - Resource Pack Overrides - make sure resource packs are enabled by default
   - RollingGate - check server side functionality
-  - BetterTab - check if TPS & MSPT functionality on the server
+  - BetterTab - check TPS & MSPT functionality on the server
   - Simple Discord Link - server side set up, update modded to SkyBlock info
   - Bookshelf - check if needed on server side
   - Prickle - check if needed on server side
@@ -189,6 +204,7 @@
 - Server Set Up
 
   - add all datapacks from modded like sitting & stuff
+  - add datapacks for AFK & sitting
   - [remove server seeker scraping](https://github.com/Funtimes909/ServerSeekerV2?tab=readme-ov-file#for-people-just-looking-to-not-be-scanned-anymore)
   - don't enforce chat signing with `enforce-secure-profile` in `server.properties`
   - <details><summary>pregenerate chunks with Distant Horizons</summary>
@@ -216,7 +232,7 @@
   - Controlling - key-bindings menu search bar
   - Delete Worlds To Trash - restore deleted worlds from system recycle bin
   - Eating Animation
-  - Enchantment Descriptions - enchant descriptions, strictly within enchanting infusers from Enchanting_Infuser.mod - WARNING no item tooltip support because of EnhancedTooltips.mod - WARNING no Useful_Spyglass.mod support
+  - Enchantment Descriptions - enchant descriptions, strictly within enchanting infusers from Enchanting_Infuser.mod - WARNING no item tooltip support because of EnhancedTooltips.mod
   - Enchantment Level Language Patch - high level enchantments & potions are easier to read & numerical
   - Held Item Tooltips - item durability, enchants, shulker box contents, potion effects, rocket durations, etc. - WARNING doesn't integrate Durability_Tooltip.mod
   - One Click Join - quick join servers from main menu
@@ -226,7 +242,7 @@
   - YDM's Weapon Master - hotbar items show on your character - customise with `.`
 - Improved mechanics
 
-  - Accessories - extra wearable inventories for accessories - cosmetic armour - WARNING default layout config not supported
+  - Accessories - extra wearable inventories for accessories - cosmetic armour
   - Curios Compat Layer for Accessories - Curios API support
   - BetterF3 - custom debug HUD - more legible - `F3` nerf - `F3 + M` (disabled coordinates by default - see #faq to re-enable)
   - Better Safe Bed - sleep if mobs can't target you
@@ -251,8 +267,8 @@
   - No Chat Reports - disables telemtry, chat, & player reporting - removes message indicator
   - Server Chat Sync - history while offline & rejoining
   - Chest Tracker - remembers/search for items in nearby inventories - `` ` `` for settings - search with `Y` - WARNING button position may overlap with other GUI elements
-  - Clean Tooltips - extra tooltip for item colour info - enchants (with visual icons) are ordered by importance, max level, curses with colour - Clean_Tooltips_Patch.fork to format & order enchants, with in-built Visual_Enchantments.rp enchant icons - WARNING no Useful_Spyglass.mod support
-  - EnhancedTooltips - tooltip info for durability, food status effects, extra armour / bucket of x / spawn egg preview - opinionated.fork
+  - Clean Tooltips - extra tooltip for item colour info - enchants (with visual icons) are ordered by importance, max level, curses with colour - in-built Visual_Enchantments.rp enchant icons
+  - EnhancedTooltips - tooltip info for durability, food status effects, extra armour / bucket of x / spawn egg preview
   - Colorize - `RMB` dyes on blocks - amethyst on glass - `+ CROUCH` vines for mossy variants
   - Condensed Creative - similar items are grouped in the creative menu
   - Connected Glass - adds glass types/recipes with connecting textures
@@ -307,7 +323,6 @@
   - <details><summary>Easy Shulker Boxes</summary>
 
     - shulker works like a bundle
-    - map tooltip - WARNING unexpected feature
     </details>
 
   - Elytra Physics - visual cape-like physics for elytra
@@ -333,13 +348,11 @@
 
     - enchantable equippable horse gear to boost base mount speed & apply player-boot-items-like enchants
     - opinionated.fork
-    - WARNING horseshoes don't appear enchantable in enchant table. only anvils & commands
-    - WARNING thorns not working on horse armour/shoes
     - removed horse armour enchants that are more appropriate with horseshoes (Horseshoes.mod) counterpart (i.e. `Depth Strider`, `Feather Falling`, `Frost Walker`, `Soul Speed`)
     </details>
 
-  - Immersive Armor HUD - armour info & durability above hotbar HUD - WARNING no Accessories.mod support
-  - Inline - [inline text rendering support](https://modrinth.com/mod/inline#:~:text=for%20some%20examples%20!-,Player%20Facing%20Features,-Clientside) - i.e. items textures in text chat/signs/names & show off items you own in chat - WARNING player heads don't work properly in chat
+  - Immersive Armor HUD - armour info & durability above hotbar HUD
+  - Inline - [inline text rendering support](https://modrinth.com/mod/inline#:~:text=for%20some%20examples%20!-,Player%20Facing%20Features,-Clientside) - i.e. items textures in text chat/signs/names & show off items you own in chat
   - Leave My Bars Alone - food & experience bars are visible when riding on a horse - fixes AppleSkin issue where saturation overlaps with mount HUD
   - <details><summary>Logical Efficient Tools</summary>
 
@@ -400,11 +413,11 @@
   - Potion Icons - effect icons next to potion tooltips / overlayed over potion items - [typable by text](https://modrinth.com/mod/potionicons#:~:text=in%20the%20config.-,Typable%20in%20Text,-Effect%20icons%20can)
   - MinecraftCapes - custom capes (`J` by default)
   - Skin Restorer - enable player skins for when Minecraft authentication servers are down or for servers in offline/insecure mode
-  - Skin Shuffle - in-game, real-time skin customization & management - WARNING no cape management support
+  - Skin Shuffle - in-game, real-time skin customization & management
   - Sodium Dynamic Lights - specific items/entities emit light dynamically
   - Multi Mine - mine the same block with other players, or mine other blocks with their own mining progress
   - Ping Wheel - communicate with pings using `MOUSE_5` - hold `LEFT_ALT` to also see player names
-  - PlayerRevive - revive a player within 120 seconds after death - WARNING revive text is bugged
+  - PlayerRevive - revive a player within 120 seconds after death
   - Raised - raises the hotbar so the selector is not cut off
   - RightClickHarvest - `RMB` replant crops automatically - hoe tiers increases radius
   - Simple Snowy Fix - snow generation on tree leaves
@@ -422,7 +435,7 @@
 
   - Snow Under Trees - snow under trees in snowy biomes
   - Smooth Scrolling - smoothly scroll chat, hotbar, menus, etc. - chat open/close animation
-  - Spyglass Improvements - spyglass zoom scroll/keybind (`Z` by default) - Accessories.mod support - WARNING hiding zoom overlay, removes spyglass overlay
+  - Spyglass Improvements - spyglass zoom scroll/keybind (`Z` by default) - Accessories.mod support
   - <details><summary>Useful Spyglass</summary>
 
     - Hwyla-like entity info (health, armour)
