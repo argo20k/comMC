@@ -168,10 +168,12 @@
 
 ## 2.2.0
 
+- new mods
+  - Disconnect Packet Fix - fixes "error sending packet clientbound/minecraft:disconnect" log spam
 - check all mod WARNINGs & see if they are fixable with fix.fork
-  - Enchantment Descriptions - Useful_Spyglass.mod support fix.fork
-  - Accessories - default layout fix.fork - should have been like 3 columns or something
-  - Clean Tooltips - Clean_Tooltips_Patch.fork to format & order enchants, with in-built Visual_Enchantments.rp enchant icons - WARNING no Useful_Spyglass.mod support
+  - Enchantment Descriptions - Useful_Spyglass.mod enchant description support
+  - Accessories - default to 3 columns accessories layout
+  - Clean Tooltips - Useful_Spyglass.mod enchants are missing enchant icons
   - EnhancedTooltips - opinionated.fork
   - Universal Enchants - thorns not working on horse armour/shoes
   - Easy Shulker Boxes - removed unexpected map tooltip feature
@@ -181,22 +183,26 @@
   - Logical Efficient Tools - mining speed not supported for Connected_Glass.mod glass
   - Skin Shuffle - no cape management support
   - PlayerRevive - revive text is bugged
-  - Spyglass Improvements - WARNING hiding zoom overlay, removes spyglass overlay
+  - Spyglass Improvements - hiding zoom overlay, removes spyglass overlay
+  - Toni's Immersive Lanterns - `CROUCH + RMB` to belt doesn't work
+  - Bibliophilia.rp - Useful_Spyglass.mod don't have unique looks
+  - Midnighttigger's Default Connected Textures.rp - chiseled bookshelves aren't connected
+  - Snowier Snow Layers!.rp - snow layers on snow blocks looks bad
 - Check mods from [2.1.0](#210)
   - Cherished Worlds - set comMC-SkyBlock server as favourites
   - One Click Join - set up comMC-SkyBlock as the quick join server
-  - Accessories - default_layout.fork
   - (Better) Shared Advancements - make sure advancements are syncing new/offline players
   - Universal Enchants - update info to match opinionated settings
   - Simple Voice Chat - [server side set up](https://modrepo.de/minecraft/voicechat/wiki/server_setup)
-    - Open the voice chat port (24454 UDP by default) In your servers firewall
-  - Simple Voice Chat Enhanced Groups - verify if `/instantgroup`, `/persistentgroup`, etc. work
-  - Subtle Effects - check server side functionality
-  - Simple Discord RPC - [server config override set up](https://srpc.fdd-docs.com/server-config/)
-  - Visuality Reforged - check if armour sparkle works in multiplayer
+    - open the voice chat port (24454 UDP by default) in server firewall
+  - \*Simple Voice Chat Enhanced Groups - verify if `/instantgroup`, `/persistentgroup`, etc. work
+  - \*Subtle Effects - check server side functionality
+  - \*Simple Discord RPC - [server config override set up](https://srpc.fdd-docs.com/server-config/)
+  - \*Visuality Reforged - check if armour sparkle works in multiplayer
   - Resource Pack Overrides - make sure resource packs are enabled by default
   - RollingGate - check server side functionality
   - BetterTab - check TPS & MSPT functionality on the server
+  - SurvivalPlusPlus - test chat-calculator (i.e. `=1+1*2/3^4`)
   - Simple Discord Link - server side set up, update modded to SkyBlock info
   - Bookshelf - check if needed on server side
   - Prickle - check if needed on server side
@@ -206,13 +212,14 @@
   - add all datapacks from modded like sitting & stuff
   - add datapacks for AFK & sitting
   - [remove server seeker scraping](https://github.com/Funtimes909/ServerSeekerV2?tab=readme-ov-file#for-people-just-looking-to-not-be-scanned-anymore)
-  - don't enforce chat signing with `enforce-secure-profile` in `server.properties`
+  - don't enforce chat signing with `enforce-secure-profile=false` in `server.properties`
   - <details><summary>pregenerate chunks with Distant Horizons</summary>
 
-    - 4 for pregen - 2 when players are online
-    - `numberOfThreads = 4`
-    - 0.25 for pregen - 0.15 when players are online
-    - `threadRunTimeRatio = "0.25"`
+    - generate chunks alongside Distant Horizons LODs, `distantGeneratorMode = "INTERNAL_SERVER"`
+    - `numberOfThreads = 4` for pregen
+    - `numberOfThreads = 2` online with players
+    - `threadRunTimeRatio = "0.25"` for pregen
+    - `threadRunTimeRatio = "0.15"` online with players
     </details>
 
 ## 2.1.0
@@ -319,7 +326,7 @@
     - Shield: Thorns, Knockback
     </details>
 
-  - Enchantment Lore - open enchant books to read their description - even supports books with multiple enchants - Simple_Enchant_Descriptions.rp that supports Universal_Enchants.mod, Useful_Spyglass.mod changes
+  - Enchantment Lore - open enchant books to read their description - even supports books with multiple enchants - Simple_Enchant_Descriptions.rp that supports Universal_Enchants.mod & Useful_Spyglass.mod changes
   - <details><summary>Easy Shulker Boxes</summary>
 
     - shulker works like a bundle
@@ -446,7 +453,7 @@
 
   - Stylish Effects - status effect display overhaul
   - Trade Cycling - cycle trades of villagers who haven't traded before
-  - Toni's Immersive Lanterns - wear lanterns on your belt with Accessories.mod support - WARNING `CROUCH + RMB` to belt doesn't work
+  - Toni's Immersive Lanterns - wear lanterns on your belt with Accessories.mod support
   - Wandering Pets - `CROUCH + RMB` to toggle pets' follow & wander states
 
 - Additional Content
@@ -566,7 +573,7 @@
   - Better Fire - lower & transparent fire
   - Better HUD icons
   - Better Lanterns - 3D lanterns & chains - lanterns are held in your hand nicer
-  - Bibliophilia - books look unique to their enchants - WARNING no Useful_Spyglass.mod support
+  - Bibliophilia - books look unique to their enchants
   - Compact Font
   - Deep Origins Overlays - block transition textures
   - Distinct Dyes
@@ -574,9 +581,10 @@
   - GUIdes - in-game wiki guides - GUIdes_Patch.fork to support Australian English
   - Gentler Weather Sounds
   - Improved Brewing Guide
-  - Midnighttigger's Default Connected Textures - MDCT_patch.fork to remove connected glass to integrate with Connected_Glass.mod - WARNING no chiseled bookshelf support
+  - Midnighttigger's Default Connected Textures - MDCT_patch.fork to remove connected glass to integrate with Connected_Glass.mod
   - Redstone Tweaks
-  - Snowier Snow Layers! - snow layer overhangs on blocks below - WARNING snow layers on snow blocks looks bad
+  - Simple Enchant Descriptions - simplifies enchant lore - add-on for Enchantment_Lore.mod
+  - Snowier Snow Layers! - snow layer overhangs on blocks below
   - Unobtrusive Spawners
   - <details><summary>Vanilla Tweaks</summary>
 
