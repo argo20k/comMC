@@ -276,6 +276,13 @@
   1.1.0-beta.45
   fix GL rendering errors with custom hover buffer
   - removed DiscCord.mod - opted for VinURL_Music.mod
+  - icon in prism launcher not updating
+  - tarou had to re-enable animations resource pack
+
+## 2.2.3
+
+- Updates
+  - Potion Icons - removed until crash issue is solved
 
 ## 2.2.2
 
@@ -300,7 +307,6 @@
   - added an icon for the modpack
   - updated icon for Discord activity with Simple_Discord_RPC.mod
   - added a SkyBlock server icon
-  - removed Potion_Icons.mod until crash issue is solved
   - Raised - fixed AppleSkin.mod saturation & exhaustion misalignment
   - <details><summary>Mod version updating</summary>
 
