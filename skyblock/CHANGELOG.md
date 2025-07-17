@@ -275,6 +275,12 @@
   1.1.0-beta.43
   1.1.0-beta.45
   fix GL rendering errors with custom hover buffer
+  - removed DiscCord.mod - opted for VinURL_Music.mod
+
+## 2.2.2
+
+- Updates
+  - Skin Restorer - removed until a crash is resolved
 
 ## 2.2.1
 
@@ -285,12 +291,11 @@
   - Sleep.dp - regeneration after sleep - action bar announcement
   - FallingTree - adds `Chopper` axe enchant to harvest full trees - `CROUCH` + axe trees
   - FallingTree Enchantments.dp - adds enchant support to FallingTree.mod
+  - VinURL Music - upload/custom music discs
 - Notes
   - Distant Horizons - update `2.3.3-b` skipped since it caused shaders to not load
 - Updates
   - one player can sleep to pass the night
-  - added VinURL_Music.mod - upload/custom music discs
-  - removed DiscCord.mod - opted for VinURL_Music.mod
   - Configured Defaults - updated to give new players default settings
   - added an icon for the modpack
   - updated icon for Discord activity with Simple_Discord_RPC.mod
