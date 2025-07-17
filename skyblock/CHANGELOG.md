@@ -2,6 +2,10 @@
 
 ## TODO
 
+- set up voice chat
+- copy over options.txt from modded
+- make custom cape for skyblock server
+
 - set up watch party in game for new video
 - update #faq
   - add simpler channel hiding with <id:customize>
@@ -29,14 +33,6 @@
 - make independent skyblock comMC Discord application / bot
 - enable bundles
 
-- fixed entity render distance, like seeing players and mobs from further
-- sleep datapack - sleeping person name is wrong
-- make held item tooltips use same durability colouring as enhanced tooltips
-- bluemap - rendered world map mod with command-line version for non-server world renders
-- spawners haunt you when mined mod
-- photon shader - add popular shaders
-- configured defaults for options etc.
-- Redstone Tweaks - owo observer probably when it activates
 - <details><summary><strong>🔧 flowstate mods</strong></summary>
 
   - ambient sound
@@ -56,20 +52,16 @@
   - countered terrain slabs
   - creative fly
   - creeper / enderman overhaul
-  - cull less leaves
   - disable custom worlds advice
   - target dummy
   - dungeon now loading 1%
   - emojiful
-  - enhanced block entities
-  - entity culling
   - exposure - a fully fletched out camera mod - could be an event by itself
   - extra sounds - ui sounds
   - falling leaves
   - fast item frames
   - goblin traders
   - horse buff
-  - immediately fast
   - immersive armours
   - immersive paintings - custom images for paintings
   - immersive thunder - new thunder sounds
@@ -83,11 +75,8 @@
   - lootr - player specific loot - everyone has loot
   - luck perms
   - macaw's doors / fences / paintings / paths / stairs / trapdoors
-  - memory leak fix
   - mighty mail
   - mob player animator
-  - modernfix
-  - more culling
   - more mob variants
   - mouse tweaks
   - mouse wheelie
@@ -156,22 +145,66 @@
   - recipe tweaks - trapdoor 6 planks into 8 trapdoor instead of 2
   - andesite stones can be used as cobblestone recipes
   - vein miner but animation is block by block
+  - simple clouds
+  - better clouds
+  - trowel
+  - tool trims
+  - More Banner Features
+  - banner flags
+  - banner bedsheets
+  - enchanted bookshelves
+  - bookshelf inspector
+  - not enough pots
+  - Increased Trapdoors Recipe Output
+  - Tooltip Icons 
+  - Immersive Overlays
+  - Fire Overlay Controller
+  - Shearable Vines
+  - Deepslate Instamine
+  - Blasting Plus
+  - Smoking Plus
+  - Sacks
+  - Suspicious Pots
+  - Biome Particle Weather
+  - Antique Atlas
+  - Cull Leaves
+  - cull less leaves
+  - FastSuite
+  - memory leak fix
+  - enhanced block entities
+  - entity culling
+  - dynamic FPS
+  - modernfix
+  - more culling
+  - exordium
+  - smooth boot
+  - debugify
+  - attributefix
+  - max health fix
+  - tooltip fix
+  - Disable Custom Worlds Advice
+  - yeetus experimentus
+  - Toast Control
+  - Polymorph
+  - Potion Descriptions
+  - mouse tweaks
+  - inventory tweaks
+  - Better Smithing Table
+  - Salju's Ladders
+  - Dampening Enchantment
+  - immersive winds
+  - Wooled Boots
+  - Mossier Deepslate
+  - Colored Allays
+  - Particle Rain
+  - SnowyLeavesPlus
+  - geophillic
+  - starter kit
   </details>
 
-- add icon.png (for prism launcher instance image), options.txt, servers.dat (for default comMC-SkyBlock server)
-  - Forked - Datapack - Detect AFK Players - performant 3 mins AFK timer - `/trigger afk` command - WARNING make `/afk` command?
-  - Forked - Datapack - AFK Dim Names
-  - Datapack - Pause Day Cycle - day/weather is paused if players are AFK
-  - Datapack - AFK Sleep - ignore AFK players when sleeping
-  - Forked - Datapack - Sleep - regeneration after sleep - action bar announcement - supports AFK Sleep?
-  - Nice Sitting Players - sit anywhere by holding `STRAFE LEFT` + `STRAFE RIGHT` for 2 seconds
-
-## 2.2.0
-
-- new mods
-  - Disconnect Packet Fix - fixes "error sending packet clientbound/minecraft:disconnect" log spam
 - check all mod WARNINGs & see if they are fixable with fix.fork
-  - Enchantment Descriptions - Useful_Spyglass.mod enchant description support
+  - Enchantment Descriptions - Useful_Spyglass.mod & FallingTree_Enchantments.dp enchant description support
+  - Bibliophilia.rp - Useful_Spyglass.mod & FallingTree_Enchantments.dp don't have unique looks
   - Accessories - default to 3 columns accessories layout
   - Clean Tooltips - Useful_Spyglass.mod enchants are missing enchant icons
   - EnhancedTooltips - opinionated.fork
@@ -185,32 +218,220 @@
   - PlayerRevive - revive text is bugged
   - Spyglass Improvements - hiding zoom overlay, removes spyglass overlay
   - Toni's Immersive Lanterns - `CROUCH + RMB` to belt doesn't work
-  - Bibliophilia.rp - Useful_Spyglass.mod don't have unique looks
   - Midnighttigger's Default Connected Textures.rp - chiseled bookshelves aren't connected
   - Snowier Snow Layers!.rp - snow layers on snow blocks looks bad
-- Check mods from [2.1.0](#210)
-  - Cherished Worlds - set comMC-SkyBlock server as favourites
-  - One Click Join - set up comMC-SkyBlock as the quick join server
-  - (Better) Shared Advancements - make sure advancements are syncing new/offline players
+  - inline posting own face doesnt work bug
+  - watut head goes missing sometimes bug
+  - watut head is wobbled to the side bug
+  - Detect AFK Players - make `/afk` command
+  - sleep datapack - sleeping person name is wrong
+  - make held item tooltips use same durability colouring as enhanced tooltips
+- Check mod functionality
   - Universal Enchants - update info to match opinionated settings
   - Simple Voice Chat - [server side set up](https://modrepo.de/minecraft/voicechat/wiki/server_setup)
     - open the voice chat port (24454 UDP by default) in server firewall
-  - \*Simple Voice Chat Enhanced Groups - verify if `/instantgroup`, `/persistentgroup`, etc. work
-  - \*Subtle Effects - check server side functionality
-  - \*Simple Discord RPC - [server config override set up](https://srpc.fdd-docs.com/server-config/)
-  - \*Visuality Reforged - check if armour sparkle works in multiplayer
-  - Resource Pack Overrides - make sure resource packs are enabled by default
+  - Simple Voice Chat Enhanced Groups - verify if `/instantgroup`, `/persistentgroup`, etc. work
+  - Subtle Effects - check server side functionality
+  - Simple Discord RPC - [server config override set up](https://srpc.fdd-docs.com/server-config/)
+  - Visuality Reforged - check if armour sparkle works in multiplayer
   - RollingGate - check server side functionality
-  - BetterTab - check TPS & MSPT functionality on the server
   - SurvivalPlusPlus - test chat-calculator (i.e. `=1+1*2/3^4`)
   - Simple Discord Link - server side set up, update modded to SkyBlock info
   - Bookshelf - check if needed on server side
   - Prickle - check if needed on server side
   - ServuxForged - install server side
-- Server Set Up
+- Notes
+  - chunks in the overworld, nether, & end have been pregenerated in a 256 chunk radius from 0, 0
+- update neoforge & modpack mods
+- improved tridents - loyalty void comes back
+- enable amethyst geode in structure generation
+- change spawn rate of structures like trial chambers, too common
+- add rarer mine shafts
+- disenchanting table
+- fixed entity render distance, like seeing players and mobs from further
+- fancymenu github update
+- blockbench minecraft logo splashscreen
+- check simple discord link of both servers so they are chat relaying
+- set up skyblock and modded spam logs in seperate channels
+- port Disconnect_Packet_Fix.mod on modded
+- Tooltip Icons 
+- mouse tweaks
+- inventory tweaks
+- inventory profiles next
+- Crafting Tweaks
+- universal bone meal
+- clock shows weather
+- bluemap - rendered world map mod with command-line version for non-server world renders
+- spawners haunt you when mined mod
+- technoblade name tag gold crown
+- visual workbench
+- update discord faq
+- update github install & update tutorial
+- photon shader - add popular shaders
+- Redstone Tweaks - owo observer probably when it activates
+- bookshelf tooltip
+- removed Inline.mod until player disconnect issues are solved
+  - Accessories - extra wearable inventories for accessories - cosmetic armour
+  1.1.0-beta.43
+  1.1.0-beta.45
+  fix GL rendering errors with custom hover buffer
 
-  - add all datapacks from modded like sitting & stuff
-  - add datapacks for AFK & sitting
+## 2.2.1
+
+- 🚀 New
+  - Sit Anywhere! - sit anywhere by `LOOKING DOWN` + `DOUBLE TAP CROUCH` + `RMB`
+  - Detect AFK Players.dp - performant 5 mins AFK timer
+  - Pause Day Cycle.dp - day/weather is paused when all players are AFK/offline
+  - Sleep.dp - regeneration after sleep - action bar announcement
+  - FallingTree - adds `Chopper` axe enchant to harvest full trees - `CROUCH` + axe trees
+  - FallingTree Enchantments.dp - adds enchant support to FallingTree.mod
+- Notes
+  - Distant Horizons - update `2.3.3-b` skipped since it caused shaders to not load
+- Updates
+  - one player can sleep to pass the night
+  - added VinURL_Music.mod - upload/custom music discs
+  - removed DiscCord.mod - opted for VinURL_Music.mod
+  - Configured Defaults - updated to give new players default settings
+  - added an icon for the modpack
+  - updated icon for Discord activity with Simple_Discord_RPC.mod
+  - added a SkyBlock server icon
+  - removed Potion_Icons.mod until crash issue is solved
+  - Raised - fixed AppleSkin.mod saturation & exhaustion misalignment
+  - <details><summary>Mod version updating</summary>
+
+    - 3D Skin Layers - `1.7.5` ➔ `1.8.1`
+      - Add 1.21.7 as working
+      - Fix crashes on legacy/outdated Forge versions
+      - Rework allocation check to prevent crashes in 1.21.2+
+    - Accessories - `1.1.0-beta.43` ➔ `1.1.0-beta.45`
+      - Fix GL rendering errors with custom hover buffer
+    - AmbientSounds - `6.1.11` ➔ `6.1.12`
+      - Reverted compressed ogg audios to \~160 kbps VBR
+    - AppleSkin - `3.0.5` ➔ `3.0.7`
+      - NeoForge config screen integration
+    - Better ModList - `1.1.18` ➔ `1.1.19`
+      - Fix incompat with packmenu
+    - Bookshelf - `21.1.64` ➔ `21.1.67`
+      - Fix client data reloads not being detected when other mods replace the recipe manager
+    - Camerapture - `1.10.1` ➔ `1.10.6`
+      - Added recipe unlocks for album and camera
+      - Properly position picture frame name tags on 1.21.1.
+      - Log more things in case pictures fail to be taken.
+      - Add a client-side Fabric event when pictures are taken.
+      - Properly set the eye height of picture frames.
+    - Chat Notify - `2.4.6+1.21` ➔ `2.4.9+1.21.1`
+      - Added bidirectional compatibility with RGB (< mc1.21.6) and ARGB (>= mc1.21.6) colors
+    - C2ME - `0.3.0+alpha.0.68` ➔ `0.3.0+alpha.0.72`
+      - Fix: race condition in handling busy state - ishland
+    - CreativeCore - `2.13.5` ➔ `2.13.7`
+      - Fixed rendering controls which have no visible rect on screen
+    - Curios Compat Layer for Accessories - `0.beta.27` ➔ `9.3.1-beta.28`
+      - Quick fix for issues with tags & incorrect mod ID for compat layer leading to issues with mods adding compatibility
+    - Easy Shulker Boxes - `21.1.2` ➔ `21.1.3`
+      - Update the bundled Item Interactions library to v21.1.4
+    - Entity Culling - `1.7.4` ➔ `1.8.1`
+      - Add 1.21.7 as supported
+      - Fix crash with outdated Forge versions
+      - Defensive copy entity lists to reduce issues with Sodium and other mods
+      - F3 times now show sub-ms precision, added value for main-thread timings
+    - Fast IP Ping - `1.0.5` ➔ `1.0.7`
+      - Fixed fabric mc1.20 \~ mc1.20.4 mod metadata
+    - Forgified Fabric API - `0.115.6+2.1.0` ➔ `0.115.6+2.1.1`
+      - Bump implementation version
+      - Fix crash on dummy ClientPacketListener (#229)
+      - Fix Item/Block color API (#230)
+      - Re-implement FabricShaderProgram for mods that use it (#225)
+      - Adjust target for ArmorFeatureRendererMixin#renderArmor (#223)
+    - Fusion (Connected Textures) - `1.2.7+b` ➔ `1.2.8`
+      - Lots of bugfixes including occlusion, emissive rendering, texture ordering, render hints, and biome/dimension crash
+    - Fzzy Config - `0.7.0` ➔ `0.7.1`
+    - ImmediatelyFast - `1.6.5` ➔ `1.6.6`
+      - Fixed font atlas resizing issue (rare JVM crash)
+      - Draw current batch when projection matrix changes (VoxelMap fix)
+      - Improved batching compatibility
+      - Fixed Cataclysm Phantom Halberds render order
+      - Fixed some overlays rendering incorrectly
+    - Iris Shaders - `1.8.8` ➔ `1.8.12`
+      - Fixes support for Pixelmon
+    - Kiwi - `15.5.2` ➔ `15.6.1`
+      - FastSuite compatibility
+    - Kotlin for Forge - `5.8.0` ➔ `5.9.0`
+      - Kotlin for Forge 5.9.0
+    - MaFgLib - `0.3.3` ➔ `0.3.6`
+      - Sync 1.21-0.21.9
+      - Update NeoForge version to 21.1.187
+    - One Click Join - `1.0.1` ➔ `1.1.0`
+      - Added support for 1.21.6
+    - owo-lib - `0.12.15.1-beta.3` ➔ `0.12.15.1-beta.6`
+      - Removed dependency on FFAPI
+      - Fix missing owo item groups
+      - Upstream merge for 1.21.1
+      - Fix optional serialization issues
+    - Ping Wheel - `1.10.2` ➔ `1.10.3`
+      - Added texture for off-screen arrow customization
+    - Raised - `4.0.1` ➔ `5.0.0`
+      - Major overhaul with layer registry system
+      - Support for moving subtitles
+      - Compatibility fixes and improvements for overlays
+      - Command/config/translation updates
+      - Fixes for chat tooltips and y-axis rendering
+    - Resourcify - `1.7.2` ➔ `1.7.3`
+      - Added support for 1.21.6 Fabric
+      - Improved manual download system stability
+    - RollingGate - `1.1.0+build.52` ➔ `1.1.0+build.57`
+    - Simple Discord RPC - `4.0.2` ➔ `4.0.4`
+      - Fix Windows AccessDenied errors
+      - Fix RPC handling and Linux user switching issues
+      - Improved detection of Snap/FlatPak Discord installs
+      - Fix pause menu/world switching status issue (#102)
+    - Simple Snowy Fix - `2.1.3` ➔ `2.1.4`
+      - Marked 1.21.6, 1.21.7 as compatible
+      - Added dynamic trees compatibility
+      - Prevent compatibility mixin warnings
+    - Simple Voice Chat - `2.5.30` ➔ `2.5.34`
+    - Skin Restorer - `2.3.3` ➔ `2.4.2`
+      - Fix crash when head profile name is null (#60, #61)
+    - Snow Under Trees - `1.4.10` ➔ `1.5`
+      - NeoForge config screen support (via mods list)
+    - Sounds - `2.4.11` ➔ `2.4.12`
+      - Support added for 1.21.6
+      - Dropped 1.21.3-1.21.5 support on NeoForge
+      - Fix potion sound issues
+    - Structurify - `1.0.11` ➔ `1.0.18`
+      - Fixed config loading error related to "enable\_biome\_check"
+    - Subtle Effects - `1.10.1` ➔ `1.11.0`
+      - Numerous new particle/sound effects (snowballs, cauldrons, villagers)
+      - Config grouping improvements
+      - Panda sneeze and enchant particle polish
+      - Fix composting disconnect issue (#102, #104)
+      - Fix particle/sound sync for cauldrons and snow
+    - SurvivalPlusPlus - `0.0.1` ➔ `0.0.1+build.26`
+      - Added wandering trader purchase
+    - Tab Tweaks - `1.5.7` ➔ `1.5.8`
+      - Port to 1.21.6
+    - YetAnotherConfigLib - `3.6.6` ➔ `3.7.1`
+      - Fix crash on some NeoForge targets when opening the colour picker
+      - Fix improper rendering of the colour picker
+      - Fix option group collapse button visibility
+  </details>
+  - Structurify - re-enabled Bastion Remnant generation
+- Server-side
+  - synced all mod updates with modpack
+  - removed Inline.mod until player disconnect issues are solved
+  - revert Distant_Horizons.mod chunk pregeneration settings
+  - disabled vanilla whitelist & opted for Simple_Discord_Link.mod whitelist
+
+## 2.2.0
+
+- New mods
+  - Disconnect Packet Fix - fixes "error sending packet clientbound/minecraft:disconnect" log spam
+- Check mods from [2.1.0](#210)
+  - Cherished Worlds - set comMC-SkyBlock server as favourites
+  - One Click Join - set up comMC-SkyBlock as the quick join server
+  - (Better) Shared Advancements - make sure advancements are syncing new/offline players
+  - Resource Pack Overrides - make sure resource packs are enabled by default
+  - BetterTab - check TPS & MSPT functionality on the server
+- Server Set Up
   - [remove server seeker scraping](https://github.com/Funtimes909/ServerSeekerV2?tab=readme-ov-file#for-people-just-looking-to-not-be-scanned-anymore)
   - don't enforce chat signing with `enforce-secure-profile=false` in `server.properties`
   - <details><summary>pregenerate chunks with Distant Horizons</summary>
@@ -229,6 +450,7 @@
   - SkyBlock Structures Worldgen.dp - generate structures (excluding ones disabled with Structurify.mod), including blocks, entities, & bounding boxes
   - SkyBlock Advancements.dp - modifies advancements to suit SkyBlock
   - SkyBlock Advancements.rp - image support for SkyBlock_Advancements.dp
+  - Structurify - configuring everything related to structures
 - QoL & doesn't change mechanics
   - AdvancementInfo Reloaded - improved advancement menu UI
   - AppleSkin - Food/hunger values - inventory tooltips & HUD
@@ -484,7 +706,8 @@
     - sleeping Zs when entities are sleeping (includes beehives/nests)
     - mace attack will spawn a dust cloud
     - sparks float up from campfires, torches, candles, candle cakes, furnaces, lava (cauldrons), & fire
-    - sparks using anvils, grindstones, & smithing tables
+    - particles using anvils, cauldrons, grindstones, smithing tables, & stonecutters
+    - villagers using workstations produce appropriate particles
     - sparks minecarts landing on rails
     - reworked particles for smoke & replaces some with steam
     - puffs of dust come off glowstone/redstone blocks
@@ -504,6 +727,7 @@
     - falling flowering azalea leaves
     - snow golems drop snow flakes when hit
     - snow balls have a snow flake trail when thrown
+    - snow balls poof into snowflakes & play a sound
     - enderpearls & dragon fireballs have a trail of ender magic
     - fireflies spawn in swamps, mangrove swamps or around flowers at night
     - reworked particles for illagers casting spells
@@ -528,10 +752,13 @@
     - slime block & oozing effect particles use slime block instead of slime item
     - particles when shearing beehives/nests
     - reworked particles for powder snow flakes
+    - using powder snow buckets produce particles
     - ender eyes placed in frames have rings & dot particles
+    - end portal frames emit smoke particles
     - ominous vaults are accordingly blue instead of orange
     - eggs have a splat particle if chickens don't spawn
     - snow flakes appear from entities when freezing
+    - improved panda sneeze particles
     - rain colour matching biome water colour
     - reworked particles when waxing off copper
     - increased item break particles
@@ -725,7 +952,7 @@
   - Reese's Sodium Options - alternative options menu for Sodium
   - Resource Pack Overrides - resource pack cleaner & manager
   - Resourcify - browse & update RP, DP, shaders in-game
-  - RollingGate - technical game manager - instantly pickup experience orbs
+  - RollingGate - technical game manager - instantly pickup XP orbs
   - SiliconeDolls - fake player spawning with `/player`
   - BetterTab - TPS & MSPT in tab list
   - ServerPlusPlus - `/here` to share coordinates in chat
@@ -745,6 +972,7 @@
   - Continuity - efficient connected textures support - Deep_Origins_Overlays.rp
   - CoroUtil - Corosus's mods - What_Are_They_Up_To.mod
   - CraterLib - HypherionSA's mods - Simple_Discord_Link.mod & Simple Discord RPC
+  - CreativeCore - CreativeMD's mods - PlayerRevive.mod & AmbientSounds.mod
   - Entity Model Features - custom entity model support - Fresh_Animations.rp
   - Entity Texture Features - custom texture support for entities in resource packs - Fresh_Animations.rp
   - Forgified Fabric API - Fabric API implementation for NeoForge - Sinytra_Connector.mod
